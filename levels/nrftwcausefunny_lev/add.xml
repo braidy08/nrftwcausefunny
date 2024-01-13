@@ -4,6 +4,13 @@
 		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
 		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
 	</add>
+	<add>
+		<unit				path="units/pd2_mod_custom/cus_interactable_door_wooden_a/cus_interactable_door_wooden_a" unload="true" load="true"/>
+		<object				path="units/pd2_mod_custom/cus_interactable_door_wooden_a/cus_interactable_door_wooden_a" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_interactable_door_wooden_a/cus_interactable_door_wooden_a" unload="true"/>
+		<material_config	path="units/pd2_mod_custom/cus_interactable_door_wooden_a/cus_interactable_door_wooden_a" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_custom/cus_interactable_door_wooden_a/cus_interactable_door_wooden_a" unload="true"/>
+	</add>
 	<add unload_on_restart="true">
 		<unit path="units/pd2_mod_mockup/tileset/mkp_floor_1x1m" unload="true"/>
 		<object path="units/pd2_mod_mockup/tileset/mkp_floor_1x1m" unload="true"/>
