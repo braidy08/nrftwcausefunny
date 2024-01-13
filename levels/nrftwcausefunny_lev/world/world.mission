@@ -730,7 +730,7 @@
 					<entry key="height" type="number" value="200"/>
 					<entry key="instigator" type="string" value="player"/>
 					<entry key="instigator_name" type="string" value=""/>
-					<entry key="interval" type="number" value="0.1"/>
+					<entry key="interval" type="number" value="0.05"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
