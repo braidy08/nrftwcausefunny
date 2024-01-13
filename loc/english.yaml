@@ -1,0 +1,17 @@
+---
+
+braidy08 : braidy08
+braidy08desc : dummy
+
+menu_nrftw_vanstayinloud_name : Van will stay in loud
+menu_nrftw_vanstayinloud_desc : We paid Twitch extra to stay if things go south.
+
+menu_nrftw_vannormal_name : Van escape
+menu_nrftw_vannormal_desc : Twitch will bail if things go south.
+
+
+heist_nrftwcausefunny_nar_brief : "This branch of Secure Capital Bank is currently holding an unusually large amount of cash in its vault, awaiting transport. Because of this, there is an increased presence of security guards on-site, but I’m sure you can handle it.\n\nDecide the best way to approach this. You can either sneak in and disable the security systems or go in loud and burn your way into the vault with thermite.\n\nThat cash is not going to stay in the vault for long."
+heist_nrftwcausefunny_nar_name : No Rest for the Wicked
+
+heist_nrftwcausefunny_lev_brief : Stealth is an option
+heist_nrftwcausefunny_lev_name : Branch Bank
