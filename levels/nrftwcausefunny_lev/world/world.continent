@@ -2003,6 +2003,14 @@
 		<table>
 			<unit_data _prev_pos="-1025 2100 -300" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="200 2.38419e-005 0" local_rot="0 0 -0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_b" name_id="mkp_wall_int_1m_b_002" position="-925 2100 -300" rotation="0 0 1 4.37114e-008" unit_id="100663"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="2000.77 857.554 -8" _prev_rot="0 0 -0.737277 -0.67559" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="anim_doors_rear_open" name="units/payday2/vehicles/str_vehicle_van_escape_overpass/str_vehicle_van_escape_overpass" name_id="str_vehicle_van_escape_overpass_001" position="2000.77 907.554 -8" rotation="0 0 -0.731354 -0.681998" unit_id="100664">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 0.858824 0.576471" enabled="true" falloff_exponent="4" far_range="150" multiplier="identity" name="lo_omni_1" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
+					<table clipping_values="10000 -10000 0" color="1 0.861 0.584" enabled="true" falloff_exponent="4" far_range="150" multiplier="identity" name="lo_omni_2" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
