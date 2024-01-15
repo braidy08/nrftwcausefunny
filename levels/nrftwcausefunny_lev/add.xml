@@ -409,9 +409,264 @@
 		<unit path="units/payday2/vehicles/anim_vehicle_van_player/anim_vehicle_van_player"/>
 	</add>
 	<add from_db="true" path="units/payday2/vehicles/str_vehicle_van_anim_shouse/str_vehicle_van_anim_shouse" type="unit">
-		<unit path="units/payday2/vehicles/str_vehicle_van_anim_shouse/str_vehicle_van_anim_shouse"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
 		<object path="units/payday2/vehicles/str_vehicle_van_anim_shouse/str_vehicle_van_anim_shouse"/>
 		<sequence_manager path="units/payday2/vehicles/str_vehicle_van_anim_shouse/str_vehicle_van_anim_shouse"/>
+		<unit path="units/payday2/vehicles/str_vehicle_van_anim_shouse/str_vehicle_van_anim_shouse"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/vehicles/str_vehicle_van/chl_vehicle_van_player" type="unit">
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc_chill/vehicles/str_vehicle_van/chl_vehicle_van_player"/>
+		<sequence_manager path="units/pd2_dlc_chill/vehicles/str_vehicle_van/chl_vehicle_van_player"/>
+		<unit path="units/pd2_dlc_chill/vehicles/str_vehicle_van/chl_vehicle_van_player"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/vehicles/brb_vehicle_van_player/brb_vehicle_van_player" type="unit">
+		<material_config path="units/pd2_dlc_brb/vehicles/brb_vehicle_van_player/brb_vehicle_van_player"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/particles/bullet_hit/misc/misc_tire"/>
+		<object path="units/pd2_dlc_brb/vehicles/brb_vehicle_van_player/brb_vehicle_van_player"/>
+		<unit path="units/pd2_dlc_brb/vehicles/brb_vehicle_van_player/brb_vehicle_van_player"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_run/props/run_vehicle_van_street_burning_man_event/run_vehicle_van_player" type="unit">
+		<material_config path="units/pd2_dlc_run/props/run_vehicle_van_street_burning_man_event/run_vehicle_van_player"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc_run/props/run_vehicle_van_street_burning_man_event/run_vehicle_van_player"/>
+		<sequence_manager path="units/pd2_dlc_run/props/run_vehicle_van_street_burning_man_event/run_vehicle_van_player"/>
+		<unit path="units/pd2_dlc_run/props/run_vehicle_van_street_burning_man_event/run_vehicle_van_player"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_driver/gen_prop_driver" type="unit">
+		<material_config path="units/payday2/props/gen_prop_driver/gen_prop_driver"/>
+		<object path="units/payday2/props/gen_prop_driver/gen_prop_driver"/>
+		<unit path="units/payday2/props/gen_prop_driver/gen_prop_driver"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/are/are_off_int_glass_01" type="unit">
+		<material_config path="units/payday2/architecture/are/are_off_int_glass_01"/>
+		<object path="units/payday2/architecture/are/are_off_int_glass_01"/>
+		<unit path="units/payday2/architecture/are/are_off_int_glass_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bnk_branch/bnk_branch_glass_window" type="unit">
+		<material_config path="units/payday2/architecture/bnk_branch/bnk_branch"/>
+		<object path="units/payday2/architecture/bnk_branch/bnk_branch_glass_window"/>
+		<sequence_manager path="units/payday2/architecture/bnk_branch/bnk_branch_glass_window"/>
+		<unit path="units/payday2/architecture/bnk_branch/bnk_branch_glass_window"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bnk_branch/bnk_branch_glass_window_large" type="unit">
+		<material_config path="units/payday2/architecture/bnk_branch/bnk_branch"/>
+		<object path="units/payday2/architecture/bnk_branch/bnk_branch_glass_window_large"/>
+		<sequence_manager path="units/payday2/architecture/bnk_branch/bnk_branch_glass_window_large"/>
+		<unit path="units/payday2/architecture/bnk_branch/bnk_branch_glass_window_large"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_2m_a_glass" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_2m_a_glass"/>
+		<sequence_manager path="units/payday2/architecture/hcm/hcm_int_wall_2m_a_glass"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_2m_a_glass"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_ext_glass_long_b" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/payday2/particles/window/panorama_window"/>
+		<object path="units/payday2/architecture/lux/lux_ext_glass_long_b"/>
+		<sequence_manager path="units/payday2/architecture/lux/lux_ext_glass_long_b"/>
+		<unit path="units/payday2/architecture/lux/lux_ext_glass_long_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_ext_glass_mid_a" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/payday2/particles/window/storefront_window_large"/>
+		<object path="units/payday2/architecture/lux/lux_ext_glass_mid_a"/>
+		<sequence_manager path="units/payday2/architecture/lux/lux_ext_glass_mid_a"/>
+		<unit path="units/payday2/architecture/lux/lux_ext_glass_mid_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_ext_glass_small_a" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/lux/lux_ext_glass_small_a"/>
+		<sequence_manager path="units/payday2/architecture/lux/lux_ext_glass_small_a"/>
+		<unit path="units/payday2/architecture/lux/lux_ext_glass_small_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_ext_glass_mid_f" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/lux/lux_ext_glass_mid_f"/>
+		<sequence_manager path="units/payday2/architecture/lux/lux_ext_glass_mid_f"/>
+		<unit path="units/payday2/architecture/lux/lux_ext_glass_mid_f"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_ext_glass_mid_d" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/lux/lux_ext_glass_mid_d"/>
+		<sequence_manager path="units/payday2/architecture/lux/lux_ext_glass_mid_d"/>
+		<unit path="units/payday2/architecture/lux/lux_ext_glass_mid_d"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_ext_glass_mid_e" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/lux/lux_ext_glass_mid_e"/>
+		<sequence_manager path="units/payday2/architecture/lux/lux_ext_glass_mid_e"/>
+		<unit path="units/payday2/architecture/lux/lux_ext_glass_mid_e"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_ext_glass_mid_b" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/lux/lux_ext_glass_mid_b"/>
+		<sequence_manager path="units/payday2/architecture/lux/lux_ext_glass_mid_b"/>
+		<unit path="units/payday2/architecture/lux/lux_ext_glass_mid_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_ext_glass_small_b" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/lux/lux_ext_glass_small_b"/>
+		<sequence_manager path="units/payday2/architecture/lux/lux_ext_glass_small_b"/>
+		<unit path="units/payday2/architecture/lux/lux_ext_glass_small_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_ext_glass_small_c" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/lux/lux_ext_glass_small_c"/>
+		<sequence_manager path="units/payday2/architecture/lux/lux_ext_glass_small_c"/>
+		<unit path="units/payday2/architecture/lux/lux_ext_glass_small_c"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_ext_glass_small_d" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/lux/lux_ext_glass_small_d"/>
+		<sequence_manager path="units/payday2/architecture/lux/lux_ext_glass_small_d"/>
+		<unit path="units/payday2/architecture/lux/lux_ext_glass_small_d"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_ext_glass_mid_c" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/lux/lux_ext_glass_mid_c"/>
+		<sequence_manager path="units/payday2/architecture/lux/lux_ext_glass_mid_c"/>
+		<unit path="units/payday2/architecture/lux/lux_ext_glass_mid_c"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_ext_glass_mid_h" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/lux/lux_ext_glass_mid_h"/>
+		<sequence_manager path="units/payday2/architecture/lux/lux_ext_glass_mid_h"/>
+		<unit path="units/payday2/architecture/lux/lux_ext_glass_mid_h"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lcm/lcm_int_window_glass_01_a" type="unit">
+		<material_config path="units/payday2/architecture/lcm/lcm"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/lcm/lcm_int_window_glass_01_a"/>
+		<sequence_manager path="units/payday2/architecture/lcm/lcm_int_window_glass_01_a"/>
+		<unit path="units/payday2/architecture/lcm/lcm_int_window_glass_01_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm_c/hcm_c_ext_diamondstore_glass_d" type="unit">
+		<material_config path="units/payday2/architecture/hcm_c/hcm_c"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/hcm_c/hcm_c_ext_diamondstore_glass_d"/>
+		<sequence_manager path="units/payday2/architecture/hcm_c/hcm_c_ext_diamondstore_glass_d"/>
+		<unit path="units/payday2/architecture/hcm_c/hcm_c_ext_diamondstore_glass_d"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm_c/hcm_c_ext_diamondstore_glass_c" type="unit">
+		<material_config path="units/payday2/architecture/hcm_c/hcm_c"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/hcm_c/hcm_c_ext_diamondstore_glass_c"/>
+		<sequence_manager path="units/payday2/architecture/hcm_c/hcm_c_ext_diamondstore_glass_c"/>
+		<unit path="units/payday2/architecture/hcm_c/hcm_c_ext_diamondstore_glass_c"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm_c/hcm_c_ext_diamondstore_glass_b" type="unit">
+		<material_config path="units/payday2/architecture/hcm_c/hcm_c"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/hcm_c/hcm_c_ext_diamondstore_glass_b"/>
+		<sequence_manager path="units/payday2/architecture/hcm_c/hcm_c_ext_diamondstore_glass_b"/>
+		<unit path="units/payday2/architecture/hcm_c/hcm_c_ext_diamondstore_glass_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm_c/hcm_c_ext_diamondstore_glass_a" type="unit">
+		<material_config path="units/payday2/architecture/hcm_c/hcm_c"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/hcm_c/hcm_c_ext_diamondstore_glass_a"/>
+		<sequence_manager path="units/payday2/architecture/hcm_c/hcm_c_ext_diamondstore_glass_a"/>
+		<unit path="units/payday2/architecture/hcm_c/hcm_c_ext_diamondstore_glass_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm_b/hcm_b_ext_arm_atrium_glass_f" type="unit">
+		<material_config path="units/payday2/architecture/hcm_b/hcm_b"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/hcm_b/hcm_b_ext_arm_atrium_glass_f"/>
+		<sequence_manager path="units/payday2/architecture/hcm_b/hcm_b_ext_arm_atrium_glass_f"/>
+		<unit path="units/payday2/architecture/hcm_b/hcm_b_ext_arm_atrium_glass_f"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm_b/hcm_b_ext_arm_atrium_glass_a" type="unit">
+		<material_config path="units/payday2/architecture/hcm_b/hcm_b"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/hcm_b/hcm_b_ext_arm_atrium_glass_a"/>
+		<sequence_manager path="units/payday2/architecture/hcm_b/hcm_b_ext_arm_atrium_glass_a"/>
+		<unit path="units/payday2/architecture/hcm_b/hcm_b_ext_arm_atrium_glass_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm_b/hcm_b_ext_arm_atrium_glass_b" type="unit">
+		<material_config path="units/payday2/architecture/hcm_b/hcm_b"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/hcm_b/hcm_b_ext_arm_atrium_glass_b"/>
+		<sequence_manager path="units/payday2/architecture/hcm_b/hcm_b_ext_arm_atrium_glass_b"/>
+		<unit path="units/payday2/architecture/hcm_b/hcm_b_ext_arm_atrium_glass_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm_b/hcm_b_ext_arm_atrium_glass_c" type="unit">
+		<material_config path="units/payday2/architecture/hcm_b/hcm_b"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/hcm_b/hcm_b_ext_arm_atrium_glass_c"/>
+		<sequence_manager path="units/payday2/architecture/hcm_b/hcm_b_ext_arm_atrium_glass_c"/>
+		<unit path="units/payday2/architecture/hcm_b/hcm_b_ext_arm_atrium_glass_c"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm_b/hcm_b_ext_arm_atrium_glass_d" type="unit">
+		<material_config path="units/payday2/architecture/hcm_b/hcm_b"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/hcm_b/hcm_b_ext_arm_atrium_glass_d"/>
+		<sequence_manager path="units/payday2/architecture/hcm_b/hcm_b_ext_arm_atrium_glass_d"/>
+		<unit path="units/payday2/architecture/hcm_b/hcm_b_ext_arm_atrium_glass_d"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_4m_c_glass_cell" type="unit">
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_4m_c_glass_cell"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_4m_c_glass_cell"/>
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<sequence_manager path="units/payday2/architecture/hcm/hcm_int_wall_4m_c_glass_cell"/>
+		<unit path="units/payday2/props/hcm_prop_int_spawned_glass/hcm_prop_int_spawned_glass"/>
+		<object path="units/payday2/props/hcm_prop_int_spawned_glass/hcm_prop_int_spawned_glass"/>
+		<material_config path="units/payday2/props/hcm_prop_int_spawned_glass/hcm_prop_int_spawned_glass"/>
+		<sequence_manager path="units/payday2/props/hcm_prop_int_spawned_glass/hcm_prop_int_spawned_glass"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_4m_c_glass" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/payday2/particles/window/jewelry_counter_1"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_4m_c_glass"/>
+		<sequence_manager path="units/payday2/architecture/hcm/hcm_int_wall_4m_c_glass"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_4m_c_glass"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_4m_a_glass_cell" type="unit">
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_4m_a_glass_cell"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_4m_a_glass_cell"/>
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<sequence_manager path="units/payday2/architecture/hcm/hcm_int_wall_4m_a_glass_cell"/>
+		<unit path="units/payday2/props/hcm_prop_int_spawned_glass/hcm_prop_int_spawned_glass"/>
+		<object path="units/payday2/props/hcm_prop_int_spawned_glass/hcm_prop_int_spawned_glass"/>
+		<material_config path="units/payday2/props/hcm_prop_int_spawned_glass/hcm_prop_int_spawned_glass"/>
+		<sequence_manager path="units/payday2/props/hcm_prop_int_spawned_glass/hcm_prop_int_spawned_glass"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_2m_b_glass_cell" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_2m_b_glass_cell"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_2m_b_glass_cell"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_2m_b_glass" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/payday2/particles/window/jewelry_counter_1"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_2m_b_glass"/>
+		<sequence_manager path="units/payday2/architecture/hcm/hcm_int_wall_2m_b_glass"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_2m_b_glass"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_nightclub/com_int_nightclub_wall_2m_glass" type="unit">
+		<unit path="units/payday2/architecture/com_int_nightclub/com_int_nightclub_wall_2m_glass"/>
+		<object path="units/payday2/architecture/com_int_nightclub/com_int_nightclub_wall_2m_glass"/>
+		<material_config path="units/payday2/architecture/com_int_nightclub/com_int_nightclub"/>
+		<sequence_manager path="units/payday2/architecture/com_int_nightclub/com_int_nightclub_wall_2m_glass"/>
 		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
 	</add>
 </table>
