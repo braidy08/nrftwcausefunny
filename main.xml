@@ -2,6 +2,7 @@
 	<Localization default="english.yaml" directory="loc">
 		<loc file="english.yaml" language="english"/>
 	</Localization>
+	<Package file="packagedata/pd2_mod_nrftw/add.xml" id="modpackages/pd2_mod_nrftw"/>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" desc_id="braidy08desc" id="braidy08id" name_id="braidy08" package="packages/contact_bain"/>
 	<instance id="nrftw_moneydye">
 		<hooks directory="hooks">
@@ -12,7 +13,9 @@
 			<sound id="GEN_Dye_Pack_Beep" wait="1.25" loop="true" stop_id="GEN_Dye_Pack_Beep_stop"/>
 			<sound id="GEN_Dye_Pack_Explode"/>
 		</sounds>
-		<packages/>
+		<packages>
+			<value_node value="modpackages/pd2_mod_nrftw"/>
+		</packages>
 	</instance>
 	<level ai_group_type="america" id="nrftwcausefunny_lev" max_bags="54">
 		<assets/>

@@ -1,0 +1,9 @@
+<table directory="assets">
+	<add path="units/pd2_mod_nrftw/gen_pku_money_plasic_wrapped/gen_pku_money_plasic_wrapped" type="unit">
+		<effect from_db="true" load="true" path="effects/payday2/particles/grab/grab_money"/>
+		<material_config path="units/pd2_mod_nrftw/gen_pku_money_plasic_wrapped/gen_pku_money_plasic_wrapped"/>
+		<object path="units/pd2_mod_nrftw/gen_pku_money_plasic_wrapped/gen_pku_money_plasic_wrapped"/>
+		<sequence_manager path="units/pd2_mod_nrftw/gen_pku_money_plasic_wrapped/gen_pku_money_plasic_wrapped"/>
+		<unit path="units/pd2_mod_nrftw/gen_pku_money_plasic_wrapped/gen_pku_money_plasic_wrapped"/>
+	</add>
+</table>
