@@ -2187,6 +2187,27 @@
 		<table>
 			<unit_data _prev_pos="-1325 2300 1075" _prev_rot="0 -0.707107 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" name_id="mkp_wall_int_1m_a_045" position="-1325 2300 1075" rotation="0 -0.707107 0 -0.707107" unit_id="100705"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-75.8262 2286.38 375" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/lux/lux_ext_glass_mid_a" name_id="lux_ext_glass_mid_a_003" position="-350.826 2286.38 375" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100716"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-600.826 2286.38 375" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 275" local_rot="0 0 0 1" name="units/payday2/architecture/lux/lux_ext_glass_mid_a" name_id="lux_ext_glass_mid_a_004" position="-600.826 2286.38 375" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100723"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-875.826 2286.38 375" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/lux/lux_ext_glass_mid_a" name_id="lux_ext_glass_mid_a_005" position="-875.826 2286.38 375" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100724"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-875.826 2286.38 375" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/lux/lux_ext_glass_mid_a" name_id="lux_ext_glass_mid_a_006" position="-875.826 2286.38 -25" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100725"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-600.826 2286.38 375" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 275" local_rot="0 0 0 1" name="units/payday2/architecture/lux/lux_ext_glass_mid_a" name_id="lux_ext_glass_mid_a_007" position="-600.826 2286.38 -25" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100726"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1425.83 2286.38 375" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/lux/lux_ext_glass_mid_a" name_id="lux_ext_glass_mid_a_008" position="-1400.83 2286.38 375" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100727"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1425.83 2286.38 375" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/lux/lux_ext_glass_mid_a" name_id="lux_ext_glass_mid_a_009" position="-1125.83 2286.38 375" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100728"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
