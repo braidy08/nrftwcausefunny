@@ -663,10 +663,42 @@
 		<unit path="units/payday2/architecture/hcm/hcm_int_wall_2m_b_glass"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/com_int_nightclub/com_int_nightclub_wall_2m_glass" type="unit">
-		<unit path="units/payday2/architecture/com_int_nightclub/com_int_nightclub_wall_2m_glass"/>
-		<object path="units/payday2/architecture/com_int_nightclub/com_int_nightclub_wall_2m_glass"/>
 		<material_config path="units/payday2/architecture/com_int_nightclub/com_int_nightclub"/>
-		<sequence_manager path="units/payday2/architecture/com_int_nightclub/com_int_nightclub_wall_2m_glass"/>
 		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/com_int_nightclub/com_int_nightclub_wall_2m_glass"/>
+		<sequence_manager path="units/payday2/architecture/com_int_nightclub/com_int_nightclub_wall_2m_glass"/>
+		<unit path="units/payday2/architecture/com_int_nightclub/com_int_nightclub_wall_2m_glass"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_cube_1x1" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_cube_1x1"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_cube_1x1"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_firesprinkler_a" type="unit">
+		<material_config path="units/payday2/props/off_prop_ceiling/off_prop_ceiling"/>
+		<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_firesprinkler_a"/>
+		<unit path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_firesprinkler_a"/>
+	</add>
+	<add from_db="true" path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker" type="unit">
+		<object path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker"/>
+		<sequence_manager path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker"/>
+		<unit path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker"/>
+	</add>
+	<add from_db="true" path="units/world/props/suburbia_transformer_box/suburbia_transformer_box" type="unit">
+		<object path="units/world/props/suburbia_transformer_box/suburbia_transformer_box"/>
+		<sequence_manager path="units/world/props/suburbia_transformer_box/suburbia_transformer_box"/>
+		<unit path="units/world/props/suburbia_transformer_box/suburbia_transformer_box"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large"/>
+		<sequence_manager path="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_medium" type="unit">
+		<unit path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_medium"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_medium"/>
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_small"/>
+		<sequence_manager path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_small"/>
 	</add>
 </table>
