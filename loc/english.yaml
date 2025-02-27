@@ -9,6 +9,20 @@ menu_nrftw_vanstayinloud_desc : We paid Twitch extra to stay if things go south.
 menu_nrftw_vannormal_name : Van escape
 menu_nrftw_vannormal_desc : Twitch will bail if things go south.
 
+menu_nrftw_thermiteentrance_name : Thermite entrance
+menu_nrftw_thermiteentrance_desc : "If the cops get alerted this will be how you enter the vault. \n\n»Any progress you make in stealth will be pointless if things go loud"
+
+menu_nrftw_vaultlockdownsabotage_name : Keypad shutdown sabotage
+menu_nrftw_vaultlockdownsabotage_desc : "We got a guy to prevent the keypad from shutting down if the cops get alerted. \n\n»Stealth progress does not get affected if things go loud"
+
+menu_nrftw_morethermite_name : Additional Thermite
+menu_nrftw_morethermite_desc : Additional thermite will be flown in by bile
+
+menu_pre_planning_003 : Ammo bag
+menu_pre_planning_004 : Doctor bag
+menu_pre_planning_005 : Grenades
+menu_pre_planning_006 : Body bags
+menu_pre_planning_007 : Additional Thermite
 
 heist_nrftwcausefunny_nar_brief : "This branch of Secure Capital Bank is currently holding an unusually large amount of cash in its vault, awaiting transport. Because of this, there is an increased presence of security guards on-site, but I’m sure you can handle it.\n\nDecide the best way to approach this. You can either sneak in and disable the security systems or go in loud and burn your way into the vault with thermite.\n\nThat cash is not going to stay in the vault for long."
 heist_nrftwcausefunny_nar_name : No Rest for the Wicked
