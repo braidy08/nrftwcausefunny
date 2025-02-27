@@ -25,7 +25,7 @@
 			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
 		</hooks>
 		<sounds directory="assets/sounds">
-			<sound id="GEN_Dye_Pack_Beep" loop="true" stop_id="GEN_Dye_Pack_Beep_stop"/>
+			<sound id="GEN_Dye_Pack_Beep" wait="1.25" loop="true" stop_id="GEN_Dye_Pack_Beep_stop"/>
 			<sound id="GEN_Dye_Pack_Explode"/>
 		</sounds>
 		<outro_event>
