@@ -1,5 +1,5 @@
 <dynamic_object>
-	<diesel materials="units/pd2_dlc_arena/pickups/gen_pku_money_plasic_wrapped/gen_pku_money_plasic_wrapped" orientation_object="rp_gen_pku_money_plasic_wrapped" />
+	<diesel materials="units/pd2_mod_nrftw/gen_pku_money_plasic_wrapped/gen_pku_money_plasic_wrapped" orientation_object="rp_gen_pku_money_plasic_wrapped" />
 	<sequence_manager file="units/pd2_mod_nrftw/gen_pku_money_plasic_wrapped/gen_pku_money_plasic_wrapped" />
 	<bodies>
 		<body name="body_money" enabled="true" template="static">
