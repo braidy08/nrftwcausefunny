@@ -696,9 +696,16 @@
 		<unit path="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_medium" type="unit">
-		<unit path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_medium"/>
-		<object path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_medium"/>
 		<material_config path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_small"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_medium"/>
 		<sequence_manager path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_small"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_medium"/>
+	</add>
+	<add from_db="true" path="effects/particles/fire/firepuff" type="effect">
+		<effect load="true" path="effects/particles/fire/firepuff"/>
+	</add>
+	<add from_db="true" path="effects/payday2/environment/sprinkler_sealing" type="effect">
+		<effect load="true" path="effects/payday2/environment/sprinkler_sealing"/>
+		<effect load="true" path="effects/payday2/environment/parts/sprinkler_drops"/>
 	</add>
 </table>

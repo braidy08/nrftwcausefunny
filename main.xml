@@ -19,6 +19,9 @@
 	</instance>
 	<level ai_group_type="america" id="nrftwcausefunny_lev" max_bags="54">
 		<assets/>
+		<classes directory="classes">
+			<class file="ElementNRFTWTimer.lua"/>
+		</classes>
 		<hooks directory="hooks">
 			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>

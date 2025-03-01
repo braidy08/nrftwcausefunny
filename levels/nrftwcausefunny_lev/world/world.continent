@@ -1152,7 +1152,7 @@
 			<unit_data _prev_pos="3250 -2400 2800" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="1600 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_231" position="3250 -2400 2400" rotation="0 0 0.707107 -0.707107" unit_id="100379"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="100 2425 0" _prev_rot="0 0 0 -1" continent="world" local_pos="-750 -175 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_4x4m" name_id="mkp_floor_4x4m_003" position="100 2425 6575" rotation="0 0 0 -1" unit_id="100380"/>
+			<unit_data _prev_pos="100 2425 6575" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_4x4m" name_id="mkp_floor_4x4m_003" position="100 2425 6575" rotation="0 0 0 -1" unit_id="100380"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="100 2425 0" _prev_rot="0 0 0 -1" continent="world" local_pos="-750 -175 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_4x4m_hole" name_id="mkp_floor_4x4m_hole_001" position="100 2425 6575" rotation="0 0 0 -1" unit_id="100381"/>
@@ -2678,9 +2678,6 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="850 2875 6600" _prev_rot="-0.707107 -6.18172e-008 -6.18172e-008 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker" name_id="suburbia_circuitbreaker_001" position="850 2875 6600" rotation="-0.707107 0 0 -0.707107" unit_id="100860"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="79.4573 3158.05 6525" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_medium" name_id="chl_prop_timer_medium_001" position="79.4573 3158.05 6525" rotation="0 0 0 -1" unit_id="100863"/>
 		</table>
 	</statics>
 	<values>

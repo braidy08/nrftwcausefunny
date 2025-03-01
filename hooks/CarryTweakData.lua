@@ -11,5 +11,12 @@ Hooks:PostHook(CarryTweakData, "init", "init_nrftwdyedmoney", function(self, twe
 				SO_category = "enemies"
 		}
 	}
+	self.thermitebag = {
+		type = "medium",
+		name_id = "hud_carry_thermite_bag",
+		skip_exit_secure = true,
+		unit = "units/payday2/pickups/gen_pku_toolbag/gen_pku_toolbag",
+		visual_unit_name = "units/payday2/characters/npc_acc_tools_bag_1/npc_acc_tools_bag_1"
+	}
 end)
 
