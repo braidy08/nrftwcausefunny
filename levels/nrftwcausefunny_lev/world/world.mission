@@ -1914,7 +1914,7 @@
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
 					<entry key="base_delay" type="number" value="0"/>
-					<entry key="countdownspeed" type="number" value="1.5"/>
+					<entry key="countdownspeed" type="number" value="2"/>
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="100081"/>
 					</entry>
@@ -2187,6 +2187,7 @@
 				<entry key="values" type="table">
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="digital_gui_unit_ids" type="table">
+						<entry index="1" type="number" value="100863"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -2198,6 +2199,10 @@
 						<entry index="2" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100010"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100087"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="72.0717 2885.92 6525"/>

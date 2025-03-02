@@ -56,7 +56,9 @@ end
 function NRFTWTimerElement:update_timer(t, dt)
     local Tspeed = self._values.countdownspeed
 	self._values.timer = self._values.timer - (dt * Tspeed)
-
+    if BLE then
+        log(Tspeed,self._values.timer)
+    end
 	if self._values.timer <= 0 then
 		self:remove_updator()
 		self:on_executed()

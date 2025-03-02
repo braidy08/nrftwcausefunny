@@ -36,3 +36,11 @@ heist_nrftwcausefunny_nar_name : No Rest for the Wicked
 
 heist_nrftwcausefunny_lev_brief : Stealth is an option
 heist_nrftwcausefunny_lev_name : Branch Bank
+
+# interactions
+
+hud_int_hold_disable_dyepack : Hold $BTN_INTERACT to disable the dyepack
+hud_action_disabling_dyepack : Disabling dyepack
+
+hud_int_hold_pickup_dyedmoney : Hold $BTN_INTERACT to pickup dyed money
+hud_action_taking_dyedmoney : Interacting

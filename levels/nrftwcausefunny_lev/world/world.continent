@@ -2679,6 +2679,9 @@
 		<table>
 			<unit_data _prev_pos="850 2875 6600" _prev_rot="-0.707107 -6.18172e-008 -6.18172e-008 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker" name_id="suburbia_circuitbreaker_001" position="850 2875 6600" rotation="-0.707107 0 0 -0.707107" unit_id="100860"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-130.211 3154.93 6525" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large" name_id="chl_prop_timer_large_001" position="-130.211 3154.93 6525" rotation="0 0 0 -1" unit_id="100863"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
