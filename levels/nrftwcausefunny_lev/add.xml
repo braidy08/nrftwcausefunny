@@ -4,13 +4,6 @@
 		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
 		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
 	</add>
-	<add>
-		<material_config path="units/pd2_mod_custom/cus_interactable_door_wooden_a/cus_interactable_door_wooden_a" unload="true"/>
-		<model path="units/pd2_mod_custom/cus_interactable_door_wooden_a/cus_interactable_door_wooden_a" unload="true"/>
-		<object path="units/pd2_mod_custom/cus_interactable_door_wooden_a/cus_interactable_door_wooden_a" unload="true"/>
-		<sequence_manager path="units/pd2_mod_custom/cus_interactable_door_wooden_a/cus_interactable_door_wooden_a" unload="true"/>
-		<unit load="true" path="units/pd2_mod_custom/cus_interactable_door_wooden_a/cus_interactable_door_wooden_a" unload="true"/>
-	</add>
 	<add unload_on_restart="true">
 		<unit path="units/pd2_mod_mockup/tileset/mkp_floor_1x1m" unload="true"/>
 		<object path="units/pd2_mod_mockup/tileset/mkp_floor_1x1m" unload="true"/>
@@ -707,5 +700,380 @@
 	<add from_db="true" path="effects/payday2/environment/sprinkler_sealing" type="effect">
 		<effect load="true" path="effects/payday2/environment/sprinkler_sealing"/>
 		<effect load="true" path="effects/payday2/environment/parts/sprinkler_drops"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lcm/lcm_int_door_wood_01" type="unit">
+		<material_config path="units/payday2/architecture/lcm/lcm_int_door_wood_01"/>
+		<object path="units/payday2/architecture/lcm/lcm_int_door_wood_01"/>
+		<sequence_manager path="units/payday2/architecture/lcm/lcm_door"/>
+		<unit path="units/payday2/architecture/lcm/lcm_int_door_wood_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lcm/lcm_ext_door_metal_01" type="unit">
+		<material_config path="units/payday2/architecture/lcm/lcm_int_door_metal_01"/>
+		<object path="units/payday2/architecture/lcm/lcm_ext_door_metal_01"/>
+		<sequence_manager path="units/payday2/architecture/lcm/lcm_door"/>
+		<unit path="units/payday2/architecture/lcm/lcm_ext_door_metal_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_int_wall4_2m_door_a" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<object path="units/payday2/architecture/lux/lux_int_wall4_2m_door_a"/>
+		<unit path="units/payday2/architecture/lux/lux_int_wall4_2m_door_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_door_election/gen_interactable_door_election" type="unit">
+		<unit path="units/payday2/equipment/gen_interactable_door_election/gen_interactable_door_election"/>
+		<object path="units/payday2/equipment/gen_interactable_door_election/gen_interactable_door_election"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_election/gen_interactable_door_election"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_election/spawn_debris_door_election"/>
+		<object path="units/payday2/equipment/gen_interactable_door_election/spawn_debris_door_election"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_election/spawn_debris_door_election"/>
+		<effect load="true" path="effects/payday2/particles/wood/wood_door_shotgun_dmg_in"/>
+		<effect load="true" path="effects/payday2/particles/wood/wood_door_shotgun_dmg_out"/>
+		<unit path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<effect load="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_door_election/gen_interactable_door_election"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_door_glass_metal/gen_interactable_door_glass_metal" type="unit">
+		<material_config path="units/payday2/equipment/gen_interactable_door_glass_metal/gen_interactable_door_glass_metal"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/equipment/gen_interactable_door_glass_metal/gen_interactable_door_glass_metal"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_door_glass_metal/gen_interactable_door_glass_metal"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_glass_metal/gen_interactable_door_glass_metal"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_door_hcm/gen_interactable_door_hcm_double" type="unit">
+		<material_config path="units/payday2/equipment/gen_interactable_door_hcm/gen_interactable_door_hcm"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/equipment/gen_interactable_door_hcm/gen_interactable_door_hcm_double"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_door_hcm/gen_interactable_door_hcm_double"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_hcm/gen_interactable_door_hcm_double"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bnk/bnk_int_vault_big_bank" type="unit">
+		<material_config path="units/payday2/architecture/bnk/bnk_int_vault_big_bank"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_vault_big_bank"/>
+		<unit path="units/payday2/architecture/bnk/bnk_int_vault_big_bank"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_vault_door_heavy/bnk_prop_vault_door_heavy" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_vault_door_heavy/bnk_prop_vault_door_heavy"/>
+		<object path="units/payday2/props/bnk_prop_vault_door_heavy/bnk_prop_vault_door_heavy"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_door_heavy/bnk_prop_vault_door_heavy"/>
+		<unit path="units/payday2/props/bnk_prop_vault_door_heavy/bnk_prop_vault_door_heavy"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light"/>
+		<object path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light"/>
+		<unit path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light_branch_com" type="unit">
+		<unit path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light_branch_com"/>
+		<object path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light_branch_com"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light_branch_com"/>
+		<unit path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic"/>
+		<object path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic"/>
+		<material_config path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic"/>
+		<effect load="true" path="effects/payday2/environment/thermal_lance"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_fire"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_spark"/>
+		<gui path="guis/timer_gui"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light_branch_lux" type="unit">
+		<unit path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light_branch_lux"/>
+		<object path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light_branch_lux"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light_branch_lux"/>
+		<unit path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic"/>
+		<object path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic"/>
+		<material_config path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic"/>
+		<effect load="true" path="effects/payday2/environment/thermal_lance"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_fire"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_spark"/>
+		<gui path="guis/timer_gui"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light_steel_wall" type="unit">
+		<unit path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light_steel_wall"/>
+		<object path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light_steel_wall"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light_steel_wall"/>
+		<unit path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic"/>
+		<object path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic"/>
+		<material_config path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic"/>
+		<effect load="true" path="effects/payday2/environment/thermal_lance"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_fire"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_spark"/>
+		<gui path="guis/timer_gui"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light_steel_wall"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium"/>
+		<object path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium"/>
+		<unit path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bnk/bnk_int_panel_wall4m_deposit_a1" type="unit">
+		<material_config path="units/payday2/architecture/bnk/bnk_int"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_panel_wall4m_deposit_a1"/>
+		<unit path="units/payday2/architecture/bnk/bnk_int_panel_wall4m_deposit_a1"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bnk/bnk_int_deposit_box" type="unit">
+		<unit path="units/payday2/architecture/bnk/bnk_int_deposit_box"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_deposit_box"/>
+		<material_config path="units/payday2/architecture/bnk/bnk_int"/>
+		<sequence_manager path="units/payday2/architecture/bnk/bnk_int_deposit_box"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_a"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_a"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_a"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_b"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_b"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_b"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_c"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_d"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_d"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_d"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_e"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_e"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_a"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_a"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_a"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_b"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_b"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_b"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_c"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_c"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_c"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_d"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_d"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_d"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_poster"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_poster"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_poster"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_achivement"/>
+		<unit path="units/pd2_dlc_jfr/pickups/pku_german_folder/pku_german_folder"/>
+		<object path="units/pd2_dlc_jfr/pickups/pku_german_folder/pku_german_folder"/>
+		<material_config path="units/pd2_dlc_jfr/pickups/pku_german_folder/pku_german_folder"/>
+		<sequence_manager path="units/pd2_dlc_jfr/pickups/pku_german_folder/pku_german_folder"/>
+		<unit path="units/pd2_dlc_bex/props/bex_prop_cassette_tape/bex_prop_cassette_tape"/>
+		<object path="units/pd2_dlc_bex/props/bex_prop_cassette_tape/bex_prop_cassette_tape"/>
+		<material_config path="units/pd2_dlc_bex/props/bex_prop_cassette_tape/bex_prop_cassette_tape"/>
+		<sequence_manager path="units/pd2_dlc_bex/props/bex_prop_cassette_tape/bex_prop_cassette_tape"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bnk/bnk_int_panel_wall6m" type="unit">
+		<material_config path="units/payday2/architecture/bnk/bnk_int"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_panel_wall6m"/>
+		<unit path="units/payday2/architecture/bnk/bnk_int_panel_wall6m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bnk/bnk_int_panel_wall6m_a" type="unit">
+		<material_config path="units/payday2/architecture/bnk/bnk_int"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_panel_wall6m_a"/>
+		<unit path="units/payday2/architecture/bnk/bnk_int_panel_wall6m_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/architecture/brb_int/brb_int_bank_glass_wall/brb_int_bank_glass_wall_door" type="unit">
+		<material_config path="units/pd2_dlc_brb/architecture/brb_int/brb_int_bank_glass_wall/brb_int_bank_glass_wall"/>
+		<object path="units/pd2_dlc_brb/architecture/brb_int/brb_int_bank_glass_wall/brb_int_bank_glass_wall_door"/>
+		<sequence_manager path="units/pd2_dlc_brb/architecture/brb_int/brb_int_bank_glass_wall/brb_int_bank_glass_wall_door"/>
+		<unit path="units/pd2_dlc_brb/architecture/brb_int/brb_int_bank_glass_wall/brb_int_bank_glass_wall_door"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_prop_glass_display/lxy_prop_glass_display" type="unit">
+		<material_config path="units/pd2_dlc_fish/props/lxy_prop_glass_display/lxy_prop_glass_display"/>
+		<object path="units/pd2_dlc_fish/props/lxy_prop_glass_display/lxy_prop_glass_display"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_prop_glass_display/lxy_prop_glass_display"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_glass_server_big/des_prop_glass_server_big" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_glass_server_big/des_prop_glass_server_big"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc_des/props/des_prop_glass_server_big/des_prop_glass_server_big"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_glass_server_big/des_prop_glass_server_big"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_glass_server_big/des_prop_glass_server_big"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_bedroom_curtains/sfm_prop_curtains_glass_wall" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_bedroom_curtains/sfm_prop_bedroom_curtains"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_bedroom_curtains/sfm_prop_curtains_glass_wall"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_bedroom_curtains/sfm_prop_curtains_glass_wall"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/architecture/sah_int/sah_vault_glass/sah_vault_glass" type="unit">
+		<material_config path="units/pd2_dlc_sah/architecture/sah_master"/>
+		<object path="units/pd2_dlc_sah/architecture/sah_int/sah_vault_glass/sah_vault_glass"/>
+		<sequence_manager path="units/pd2_dlc_sah/architecture/sah_int/sah_vault_glass/sah_vault_glass"/>
+		<unit path="units/pd2_dlc_sah/architecture/sah_int/sah_vault_glass/sah_vault_glass"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/props/sah_prop_curator_dividers_glass/sah_prop_curator_dividers_glass" type="unit">
+		<material_config path="units/pd2_dlc_sah/props/sah_prop_curator_dividers_glass/sah_prop_curator_dividers_glass"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc_sah/props/sah_prop_curator_dividers_glass/sah_prop_curator_dividers_glass"/>
+		<sequence_manager path="units/pd2_dlc_sah/props/sah_prop_curator_dividers_glass/sah_prop_curator_dividers_glass"/>
+		<unit path="units/pd2_dlc_sah/props/sah_prop_curator_dividers_glass/sah_prop_curator_dividers_glass"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/bank/bank_glass_a/bank_glass_a" type="unit">
+		<effect load="true" path="effects/particles/window/bank_glass_a"/>
+		<material_config path="units/world/architecture/bank/bank_window/bank_window"/>
+		<object path="units/world/architecture/bank/bank_glass_a/bank_glass_a"/>
+		<sequence_manager path="units/world/architecture/bank/bank_glass_a/bank_glass_a"/>
+		<unit path="units/world/architecture/bank/bank_glass_a/bank_glass_a"/>
+	</add>
+	<add from_db="true" path="units/world/props/diamond_heist/railings/diamondheist_glass_straight" type="unit">
+		<material_config path="units/world/props/diamond_heist/railings/diamondheist_railing"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/world/props/diamond_heist/railings/diamondheist_glass_straight"/>
+		<sequence_manager path="units/world/props/diamond_heist/railings/glass"/>
+		<unit path="units/world/props/diamond_heist/railings/diamondheist_glass_straight"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/diamondheist/glass_door/glass_doors_pane_diamondheist" type="unit">
+		<material_config path="units/world/architecture/diamondheist/glass_door/glass_doors_closed_diamondheist"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/world/architecture/diamondheist/glass_door/glass_doors_pane_diamondheist"/>
+		<sequence_manager path="units/world/architecture/diamondheist/glass_door/glass_doors_pane_diamondheist"/>
+		<unit path="units/world/architecture/diamondheist/glass_door/glass_doors_pane_diamondheist"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/bank/glass_door/bank_glass_doors" type="unit">
+		<material_config path="units/world/architecture/bank/glass_door/bank_glass_doors"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/world/architecture/bank/glass_door/bank_glass_doors"/>
+		<sequence_manager path="units/world/architecture/bank/glass_door/bank_glass_doors"/>
+		<unit path="units/world/architecture/bank/glass_door/bank_glass_doors"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/bank/glass_door/bank_glass_vault" type="unit">
+		<material_config path="units/world/architecture/bank/glass_door/glass_door_matrix"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/world/architecture/bank/glass_door/bank_glass_vault"/>
+		<sequence_manager path="units/world/architecture/bank/glass_door/bank_glass_vault"/>
+		<unit path="units/world/architecture/bank/glass_door/bank_glass_vault"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/architecture/brb_int/brb_int_glasswall/brb_int_glasswall" type="unit">
+		<material_config path="units/pd2_dlc_brb/architecture/brb_int/brb_int_glasswall/brb_int_glasswall"/>
+		<object path="units/pd2_dlc_brb/architecture/brb_int/brb_int_glasswall/brb_int_glasswall"/>
+		<unit path="units/pd2_dlc_brb/architecture/brb_int/brb_int_glasswall/brb_int_glasswall"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pent/props/pent_prop_glass_divider/pent_prop_glass_divider" type="unit">
+		<material_config path="units/pd2_dlc_pent/props/pent_prop_glass_divider/pent_prop_glass_divider"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc_pent/props/pent_prop_glass_divider/pent_prop_glass_divider"/>
+		<sequence_manager path="units/pd2_dlc_pent/props/pent_prop_glass_divider/pent_prop_glass_divider"/>
+		<unit path="units/pd2_dlc_pent/props/pent_prop_glass_divider/pent_prop_glass_divider"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_red/props/red_prop_elevator_vault/red_prop_elevator_vault_glass" type="unit">
+		<effect load="true" path="effects/particles/window/bank_elevator_glass"/>
+		<material_config path="units/pd2_dlc_red/architecture/red"/>
+		<object path="units/pd2_dlc_red/props/red_prop_elevator_vault/red_prop_elevator_vault_glass"/>
+		<sequence_manager path="units/pd2_dlc_red/props/red_prop_elevator_vault/red_prop_elevator_vault_glass"/>
+		<unit path="units/pd2_dlc_red/props/red_prop_elevator_vault/red_prop_elevator_vault_glass"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/architecture/sah_int/sah_int_glass_partition/sah_int_glass_partition" type="unit">
+		<material_config path="units/pd2_dlc_sah/architecture/sah_int/sah_int_glass_partition/sah_int_glass_partition"/>
+		<object path="units/pd2_dlc_sah/architecture/sah_int/sah_int_glass_partition/sah_int_glass_partition"/>
+		<unit path="units/pd2_dlc_sah/architecture/sah_int/sah_int_glass_partition/sah_int_glass_partition"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/architecture/sah_int/sah_int_glass_partition/sah_int_glass_partition_door" type="unit">
+		<material_config path="units/pd2_dlc_sah/architecture/sah_int/sah_int_glass_partition/sah_int_glass_partition"/>
+		<object path="units/pd2_dlc_sah/architecture/sah_int/sah_int_glass_partition/sah_int_glass_partition_door"/>
+		<sequence_manager path="units/pd2_dlc_sah/architecture/sah_int/sah_int_glass_partition/sah_int_glass_partition_door"/>
+		<unit path="units/pd2_dlc_sah/architecture/sah_int/sah_int_glass_partition/sah_int_glass_partition_door"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/architecture/sah_int/sah_int_glass_partition/sah_int_glass_partition_side" type="unit">
+		<material_config path="units/pd2_dlc_sah/architecture/sah_int/sah_int_glass_partition/sah_int_glass_partition"/>
+		<object path="units/pd2_dlc_sah/architecture/sah_int/sah_int_glass_partition/sah_int_glass_partition_side"/>
+		<unit path="units/pd2_dlc_sah/architecture/sah_int/sah_int_glass_partition/sah_int_glass_partition_side"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/architecture/sah_int/sah_int_glass_partition/sah_int_partition_door_lock" type="unit">
+		<material_config path="units/pd2_dlc_sah/architecture/sah_int/sah_int_glass_partition/sah_int_partition_door_lock"/>
+		<object path="units/pd2_dlc_sah/architecture/sah_int/sah_int_glass_partition/sah_int_partition_door_lock"/>
+		<sequence_manager path="units/pd2_dlc_sah/architecture/sah_int/sah_int_glass_partition/sah_int_partition_door_lock"/>
+		<unit path="units/pd2_dlc_sah/architecture/sah_int/sah_int_glass_partition/sah_int_partition_door_lock"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_tag/architecture/tag_int/tag_int_windows_doors/tag_int_window_frame_glass_01" type="unit">
+		<material_config path="units/pd2_dlc_tag/architecture/tag_int/tag_int_windows_doors/tag_int_windows_doors"/>
+		<object path="units/pd2_dlc_tag/architecture/tag_int/tag_int_windows_doors/tag_int_window_frame_glass_01"/>
+		<unit path="units/pd2_dlc_tag/architecture/tag_int/tag_int_windows_doors/tag_int_window_frame_glass_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_tag/architecture/tag_int/tag_int_windows_doors/tag_int_window_frame_glass_02" type="unit">
+		<material_config path="units/pd2_dlc_tag/architecture/tag_int/tag_int_windows_doors/tag_int_windows_doors"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/payday2/particles/window/mallcrasher_window_large"/>
+		<object path="units/pd2_dlc_tag/architecture/tag_int/tag_int_windows_doors/tag_int_window_frame_glass_02"/>
+		<sequence_manager path="units/pd2_dlc_tag/architecture/tag_int/tag_int_windows_doors/tag_int_window_frame_glass_02"/>
+		<unit path="units/pd2_dlc_tag/architecture/tag_int/tag_int_windows_doors/tag_int_window_frame_glass_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_tag/architecture/tag_int/tag_int_windows_doors/tag_int_window_frame_glass_03" type="unit">
+		<material_config path="units/pd2_dlc_tag/architecture/tag_int/tag_int_windows_doors/tag_int_windows_doors"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/payday2/particles/window/mallcrasher_window_large"/>
+		<object path="units/pd2_dlc_tag/architecture/tag_int/tag_int_windows_doors/tag_int_window_frame_glass_03"/>
+		<sequence_manager path="units/pd2_dlc_tag/architecture/tag_int/tag_int_windows_doors/tag_int_window_frame_glass_03"/>
+		<unit path="units/pd2_dlc_tag/architecture/tag_int/tag_int_windows_doors/tag_int_window_frame_glass_03"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_trai/architecture/ext/trai_ext_workshop/roof_glass/big/trai_ext_workshop_roof_glass_big" type="unit">
+		<material_config path="units/pd2_dlc_trai/architecture/ext/trai_ext_workshop/roof_glass/big/trai_ext_workshop_roof_glass_big"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc_trai/architecture/ext/trai_ext_workshop/roof_glass/big/trai_ext_workshop_roof_glass_big"/>
+		<sequence_manager path="units/pd2_dlc_trai/architecture/ext/trai_ext_workshop/roof_glass/big/trai_ext_workshop_roof_glass_big"/>
+		<unit path="units/pd2_dlc_trai/architecture/ext/trai_ext_workshop/roof_glass/big/trai_ext_workshop_roof_glass_big"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_trai/architecture/int/trai_int_guardhouse/window_glass/trai_int_guardhouse_glasses" type="unit">
+		<material_config path="units/pd2_dlc_trai/architecture/int/trai_int_guardhouse/window_glass/trai_int_guardhouse_glasses"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc_trai/architecture/int/trai_int_guardhouse/window_glass/trai_int_guardhouse_glasses"/>
+		<sequence_manager path="units/pd2_dlc_trai/architecture/int/trai_int_guardhouse/window_glass/trai_int_guardhouse_glasses"/>
+		<unit path="units/pd2_dlc_trai/architecture/int/trai_int_guardhouse/window_glass/trai_int_guardhouse_glasses"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/architecture/vit_ext/vit_ext_glass_door/vit_ext_glass_door_01" type="unit">
+		<effect load="true" path="effects/payday2/particles/wood/wood_debris_large"/>
+		<effect load="true" path="effects/payday2/particles/window/des_window_medium"/>
+		<material_config path="units/pd2_dlc_vit/architecture/vit_ext/vit_ext_glass_door/vit_ext_glass_door_01"/>
+		<object path="units/pd2_dlc_vit/architecture/vit_ext/vit_ext_glass_door/vit_ext_glass_door_01"/>
+		<sequence_manager path="units/pd2_dlc_vit/architecture/vit_ext/vit_ext_glass_door/vit_ext_glass_door_01"/>
+		<unit path="units/pd2_dlc_vit/architecture/vit_ext/vit_ext_glass_door/vit_ext_glass_door_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/architecture/vit_ext/vit_ext_glass_door/vit_ext_glass_door_02" type="unit">
+		<effect load="true" path="effects/payday2/particles/wood/wood_debris_large"/>
+		<effect load="true" path="effects/payday2/particles/window/des_window_medium"/>
+		<material_config path="units/pd2_dlc_vit/architecture/vit_ext/vit_ext_glass_door/vit_ext_glass_door_01"/>
+		<object path="units/pd2_dlc_vit/architecture/vit_ext/vit_ext_glass_door/vit_ext_glass_door_02"/>
+		<sequence_manager path="units/pd2_dlc_vit/architecture/vit_ext/vit_ext_glass_door/vit_ext_glass_door_02"/>
+		<unit path="units/pd2_dlc_vit/architecture/vit_ext/vit_ext_glass_door/vit_ext_glass_door_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/architecture/vit_int/vit_int_glass_vault/vit_int_glass_vault_doors" type="unit">
+		<material_config path="units/pd2_dlc_vit/architecture/vit_int/vit_int_glass_vault/vit_int_glass_vault"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc_vit/architecture/vit_int/vit_int_glass_vault/vit_int_glass_vault_doors"/>
+		<sequence_manager path="units/pd2_dlc_vit/architecture/vit_int/vit_int_glass_vault/vit_int_glass_vault_doors"/>
+		<unit path="units/pd2_dlc_vit/architecture/vit_int/vit_int_glass_vault/vit_int_glass_vault_doors"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/architecture/vit_int/vit_int_glass_vault/vit_int_glass_vault" type="unit">
+		<material_config path="units/pd2_dlc_vit/architecture/vit_int/vit_int_glass_vault/vit_int_glass_vault"/>
+		<object path="units/pd2_dlc_vit/architecture/vit_int/vit_int_glass_vault/vit_int_glass_vault"/>
+		<unit path="units/pd2_dlc_vit/architecture/vit_int/vit_int_glass_vault/vit_int_glass_vault"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/architecture/vit_int/vit_int_glass_vault/vit_int_glass_vault_window_01" type="unit">
+		<material_config path="units/pd2_dlc_vit/architecture/vit_int/vit_int_glass_vault/vit_int_glass_vault"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc_vit/architecture/vit_int/vit_int_glass_vault/vit_int_glass_vault_window_01"/>
+		<sequence_manager path="units/pd2_dlc_vit/architecture/vit_int/vit_int_glass_vault/vit_int_glass_vault_window_01"/>
+		<unit path="units/pd2_dlc_vit/architecture/vit_int/vit_int_glass_vault/vit_int_glass_vault_window_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_lab/mus_prop_curator_dividers_glass_01" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_lab/mus_prop_curator_dividers"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_prop_curator_dividers_glass_01"/>
+		<sequence_manager path="units/pd2_indiana/architecture/mus_int_lab/mus_prop_curator_dividers_glass_01"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_prop_curator_dividers_glass_01"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/bank/glass_door/bank_glass_door_single" type="unit">
+		<unit path="units/world/architecture/bank/glass_door/bank_glass_door_single"/>
+		<object path="units/world/architecture/bank/glass_door/bank_glass_door_single"/>
+		<material_config path="units/world/architecture/bank/glass_door/bank_glass_doors"/>
+		<sequence_manager path="units/world/architecture/bank/glass_door/bank_glass_door_single"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
 	</add>
 </table>
