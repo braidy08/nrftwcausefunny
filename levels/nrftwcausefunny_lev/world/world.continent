@@ -1,14 +1,14 @@
 <table>
 	<editor_groups/>
 	<instances>
-		<table continent="world" folder="levels/instances/mods/nrftwcausefunny/nrftw_moneydye/world" index_size="250" name="nrftw_moneydye_001" position="-875 1300 6525" rotation="-0 0 -0 -1" script="default" start_index="0"/>
-		<table continent="world" folder="levels/instances/mods/nrftwcausefunny/nrftw_moneydye/world" index_size="250" name="nrftw_moneydye_002" position="-875 1375 6525" rotation="-0 0 -0 -1" script="default" start_index="250"/>
-		<table continent="world" folder="levels/instances/mods/nrftwcausefunny/nrftw_moneydye/world" index_size="250" name="nrftw_moneydye_003" position="-875 1450 6525" rotation="-0 0 -0 -1" script="default" start_index="500"/>
-		<table continent="world" folder="levels/instances/mods/nrftwcausefunny/nrftw_moneydye/world" index_size="250" name="nrftw_moneydye_004" position="-875 1525 6525" rotation="-0 0 -0 -1" script="default" start_index="750"/>
-		<table continent="world" folder="levels/instances/mods/nrftwcausefunny/nrftw_moneydye/world" index_size="250" name="nrftw_moneydye_005" position="-825 1600 6525" rotation="0 0 0.707107 -0.707107" script="default" start_index="1000"/>
-		<table continent="world" folder="levels/instances/mods/nrftwcausefunny/nrftw_moneydye/world" index_size="250" name="nrftw_moneydye_006" position="-750 1600 6525" rotation="0 0 0.707107 -0.707107" script="default" start_index="1250"/>
-		<table continent="world" folder="levels/instances/mods/nrftwcausefunny/nrftw_moneydye/world" index_size="250" name="nrftw_moneydye_007" position="-675 1600 6525" rotation="0 0 0.707107 -0.707107" script="default" start_index="1500"/>
-		<table continent="world" folder="levels/instances/mods/nrftwcausefunny/nrftw_moneydye/world" index_size="250" name="nrftw_moneydye_008" position="-600 1600 6525" rotation="0 0 0.707107 -0.707107" script="default" start_index="1750"/>
+		<table continent="world" folder="levels/instances/mods/nrftwcausefunny/nrftw_moneydye/world" index_size="250" name="nrftw_moneydye_001" position="-1037.79 4552.63 0" rotation="-0 0 0.707107 -0.707107" script="default" start_index="0"/>
+		<table continent="world" folder="levels/instances/mods/nrftwcausefunny/nrftw_moneydye/world" index_size="250" name="nrftw_moneydye_002" position="-962.79 4552.63 0" rotation="-0 0 0.707107 -0.707107" script="default" start_index="250"/>
+		<table continent="world" folder="levels/instances/mods/nrftwcausefunny/nrftw_moneydye/world" index_size="250" name="nrftw_moneydye_003" position="-887.79 4552.63 0" rotation="-0 0 0.707107 -0.707107" script="default" start_index="500"/>
+		<table continent="world" folder="levels/instances/mods/nrftwcausefunny/nrftw_moneydye/world" index_size="250" name="nrftw_moneydye_004" position="-812.79 4552.63 0" rotation="-0 0 0.707107 -0.707107" script="default" start_index="750"/>
+		<table continent="world" folder="levels/instances/mods/nrftwcausefunny/nrftw_moneydye/world" index_size="250" name="nrftw_moneydye_005" position="-737.79 4502.63 0" rotation="0 0 1 0" script="default" start_index="1000"/>
+		<table continent="world" folder="levels/instances/mods/nrftwcausefunny/nrftw_moneydye/world" index_size="250" name="nrftw_moneydye_006" position="-737.79 4427.63 0" rotation="0 0 1 0" script="default" start_index="1250"/>
+		<table continent="world" folder="levels/instances/mods/nrftwcausefunny/nrftw_moneydye/world" index_size="250" name="nrftw_moneydye_007" position="-737.79 4352.63 0" rotation="0 0 1 0" script="default" start_index="1500"/>
+		<table continent="world" folder="levels/instances/mods/nrftwcausefunny/nrftw_moneydye/world" index_size="250" name="nrftw_moneydye_008" position="-737.79 4277.63 0" rotation="0 0 1 0" script="default" start_index="1750"/>
 		<table continent="world" folder="levels/instances/unique/bex/bex_keypad/world" index_size="250" name="bex_keypad_001" position="-1999.44 4147.77 151.524" rotation="0 0 1 -4.37114e-008" script="default" start_index="2000"/>
 	</instances>
 	<statics>
@@ -2675,7 +2675,7 @@
 			<unit_data _prev_pos="-2700 6425 875" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" name_id="mkp_wall_int_1m_a_087" position="-2700 6400 875" rotation="-0.5 -0.5 0.5 -0.5" unit_id="100855"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-350 4050 450" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="550 250 25" local_rot="0.707107 0 0 0.707107" mesh_variation="disable_interaction" name="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker" name_id="suburbia_circuitbreaker_001" position="-350 4050 550" rotation="-0.707107 0 0 -0.707107" unit_id="100860"/>
+			<unit_data _prev_pos="-350 4050 550" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker" name_id="suburbia_circuitbreaker_001" position="-1400 4050 550" rotation="-0.707107 0 0 -0.707107" unit_id="100860"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-130.211 3154.93 6525" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large" name_id="chl_prop_timer_large_001" position="-130.211 3154.93 6525" rotation="0 0 0 -1" unit_id="100863"/>
@@ -3257,10 +3257,34 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1300 4300 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/equipment/gen_interactable_door_glass_metal/gen_interactable_door_glass_metal" name_id="gen_interactable_door_glass_metal_001" position="-1200 4300 0" rotation="0 0 0 -1" unit_id="101075"/>
+			<unit_data _prev_pos="-1100 4300 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_door_glass_metal/gen_interactable_door_glass_metal" name_id="gen_interactable_door_glass_metal_001" position="-1100 4300 0" rotation="-0 0 -0 -1" unit_id="101075"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1225 4400 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="close_doors" name="units/pd2_dlc_sah/architecture/sah_int/sah_int_glass_partition/sah_int_glass_partition_door" name_id="sah_int_glass_partition_door_001" position="-1225 4400 0" rotation="-0 0 -0 -1" unit_id="101076"/>
+			<unit_data _prev_pos="-700 4325 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/are/are_off_int_window_frame_big" name_id="are_off_int_window_frame_big_001" position="-700 4200 0" rotation="0 0 0 -1" unit_id="101077"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1100 4175 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_a" name_id="mkp_pillar_int_050m_a_001" position="-1100 4175 0" rotation="-0 0 -0 -1" unit_id="101078"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1100 4600 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_a" name_id="mkp_wall_int_4m_door_a_001" position="-1125 4200 0" rotation="0 0 -0.707107 -0.707107" unit_id="101079"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1125 4200 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" name_id="mkp_pillar_int_025m_a_035" position="-1125 4175 0" rotation="-0 0 -0 -1" unit_id="101080"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-900 3300 125" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_stair_top_a" name_id="mkp_stair_bot_a_006" position="-900 3300 125" rotation="0 0 0 -1" unit_id="101081"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-900 3400 200" _prev_rot="0 0 0 -1" continent="world" local_pos="0 200 200" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_stair_top_a" name_id="mkp_stair_bot_a_007" position="-900 3400 225" rotation="0 0 0 -1" unit_id="101082"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-900 3500 300" _prev_rot="0 0 0 -1" continent="world" local_pos="0 300 300" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_stair_top_a" name_id="mkp_stair_bot_a_008" position="-900 3500 325" rotation="0 0 0 -1" unit_id="101083"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-900 3200 -75" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_stair_bot_a" name_id="mkp_stair_bot_a_009" position="-900 3100 -75" rotation="0 0 0 -1" unit_id="101084"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-900 3200 125" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_stair_top_a" name_id="mkp_stair_bot_a_009" position="-900 3200 25" rotation="0 0 0 -1" unit_id="101076"/>
 		</table>
 	</statics>
 	<values>

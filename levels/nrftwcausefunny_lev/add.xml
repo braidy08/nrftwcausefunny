@@ -1070,10 +1070,39 @@
 		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_prop_curator_dividers_glass_01"/>
 	</add>
 	<add from_db="true" path="units/world/architecture/bank/glass_door/bank_glass_door_single" type="unit">
-		<unit path="units/world/architecture/bank/glass_door/bank_glass_door_single"/>
-		<object path="units/world/architecture/bank/glass_door/bank_glass_door_single"/>
 		<material_config path="units/world/architecture/bank/glass_door/bank_glass_doors"/>
-		<sequence_manager path="units/world/architecture/bank/glass_door/bank_glass_door_single"/>
 		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/world/architecture/bank/glass_door/bank_glass_door_single"/>
+		<sequence_manager path="units/world/architecture/bank/glass_door/bank_glass_door_single"/>
+		<unit path="units/world/architecture/bank/glass_door/bank_glass_door_single"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/are/are_off_int_window_frame_big" type="unit">
+		<material_config path="units/payday2/architecture/are/are_off_int"/>
+		<object path="units/payday2/architecture/are/are_off_int_window_frame_big"/>
+		<unit path="units/payday2/architecture/are/are_off_int_window_frame_big"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/dev_interaction_use_bridge/dev_interaction_use_bridge" type="unit">
+		<material_config path="units/dev_tools/dev_interaction_use_bridge/dev_interaction_use_bridge"/>
+		<object path="units/dev_tools/dev_interaction_use_bridge/dev_interaction_use_bridge"/>
+		<sequence_manager path="units/dev_tools/dev_interaction_use_bridge/dev_interaction_use_bridge"/>
+		<unit path="units/dev_tools/dev_interaction_use_bridge/dev_interaction_use_bridge"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/interaction_use_files/interaction_use_files" type="unit">
+		<material_config path="units/dev_tools/invisible_interaction_searching/invisible_interaction_searching"/>
+		<object path="units/dev_tools/interaction_use_files/interaction_use_files"/>
+		<sequence_manager path="units/dev_tools/interaction_use_files/interaction_use_files"/>
+		<unit path="units/dev_tools/interaction_use_files/interaction_use_files"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/dev_interaction_ticket/dev_interaction_ticket" type="unit">
+		<material_config path="units/dev_tools/dev_interaction_ticket/dev_interaction_ticket"/>
+		<object path="units/dev_tools/dev_interaction_ticket/dev_interaction_ticket"/>
+		<sequence_manager path="units/dev_tools/dev_interaction_ticket/dev_interaction_ticket"/>
+		<unit path="units/dev_tools/dev_interaction_ticket/dev_interaction_ticket"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/dev_interaction_ticket/dev_interaction_use_ticket" type="unit">
+		<unit path="units/dev_tools/dev_interaction_ticket/dev_interaction_use_ticket"/>
+		<object path="units/dev_tools/dev_interaction_ticket/dev_interaction_use_ticket"/>
+		<material_config path="units/dev_tools/dev_interaction_ticket/dev_interaction_ticket"/>
+		<sequence_manager path="units/dev_tools/dev_interaction_ticket/dev_interaction_use_ticket"/>
 	</add>
 </table>
