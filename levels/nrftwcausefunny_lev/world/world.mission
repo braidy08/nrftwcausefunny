@@ -107,7 +107,7 @@
 					<entry key="max_amount" type="number" value="0"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-900 3800 425"/>
+					<entry key="position" type="vector3" value="-900 3800 400"/>
 					<entry key="random_time" type="number" value="0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="screen_space" type="boolean" value="false"/>
@@ -197,7 +197,7 @@
 							<entry key="id" type="number" value="100024"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="-900 3800 475"/>
+					<entry key="position" type="vector3" value="-900 3800 450"/>
 					<entry key="radius" type="number" value="250"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="shape_type" type="string" value="box"/>
@@ -320,7 +320,7 @@
 							<entry key="id" type="number" value="100068"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="-900 3800 500"/>
+					<entry key="position" type="vector3" value="-900 3800 475"/>
 					<entry key="radius" type="number" value="250"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="shape_type" type="string" value="box"/>
@@ -510,7 +510,7 @@
 							<entry key="id" type="number" value="100029"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="-900 3800 525"/>
+					<entry key="position" type="vector3" value="-900 3800 500"/>
 					<entry key="radius" type="number" value="250"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="shape_type" type="string" value="box"/>
@@ -1822,6 +1822,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100025"/>
 						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100095"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-894.009 4273.17 475"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -1866,7 +1870,7 @@
 					<entry key="max_amount" type="number" value="0"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-900 3800 425"/>
+					<entry key="position" type="vector3" value="-900 3800 400"/>
 					<entry key="random_time" type="number" value="0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="screen_space" type="boolean" value="false"/>
@@ -2485,6 +2489,37 @@
 					<entry key="position" type="vector3" value="775.817 2662.86 6525"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
 					<entry key="state" type="boolean" value="false"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="96" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="unit_sequence_002"/>
+				<entry key="id" type="number" value="100095"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-820.273 4273.83 400"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100907"/>
+							<entry key="notify_unit_sequence" type="string" value="open_door"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="101092"/>
+							<entry key="notify_unit_sequence" type="string" value="anim_open_door"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
