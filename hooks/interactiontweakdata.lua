@@ -4,7 +4,7 @@ Hooks:PostHook(InteractionTweakData, "init", "init_nrftwdyepack", function(self,
 		action_text_id = "hud_action_disabling_dyepack",
 		timer = 1.2,
     }
-	-- lucky i checked the timer to make sure it is actually possible solo
+	-- lucky i checked the timer to make sure it is actually possible solo (i should probably just check how long it is in pd3)
 	    self.pickupdyedmoney = {
         text_id = "hud_int_hold_pickup_dyedmoney",
 		action_text_id = "hud_action_taking_dyedmoney",
