@@ -1100,9 +1100,14 @@
 		<unit path="units/dev_tools/dev_interaction_ticket/dev_interaction_ticket"/>
 	</add>
 	<add from_db="true" path="units/dev_tools/dev_interaction_ticket/dev_interaction_use_ticket" type="unit">
-		<unit path="units/dev_tools/dev_interaction_ticket/dev_interaction_use_ticket"/>
-		<object path="units/dev_tools/dev_interaction_ticket/dev_interaction_use_ticket"/>
 		<material_config path="units/dev_tools/dev_interaction_ticket/dev_interaction_ticket"/>
+		<object path="units/dev_tools/dev_interaction_ticket/dev_interaction_use_ticket"/>
 		<sequence_manager path="units/dev_tools/dev_interaction_ticket/dev_interaction_use_ticket"/>
+		<unit path="units/dev_tools/dev_interaction_ticket/dev_interaction_use_ticket"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m"/>
+		<material_config path="core/material_configs/hub_elements"/>
 	</add>
 </table>

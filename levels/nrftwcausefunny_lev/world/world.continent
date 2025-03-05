@@ -9,7 +9,7 @@
 		<table continent="world" folder="levels/instances/mods/nrftwcausefunny/nrftw_moneydye/world" index_size="250" name="nrftw_moneydye_006" position="-737.79 4427.63 0" rotation="0 0 1 0" script="default" start_index="1250"/>
 		<table continent="world" folder="levels/instances/mods/nrftwcausefunny/nrftw_moneydye/world" index_size="250" name="nrftw_moneydye_007" position="-737.79 4352.63 0" rotation="0 0 1 0" script="default" start_index="1500"/>
 		<table continent="world" folder="levels/instances/mods/nrftwcausefunny/nrftw_moneydye/world" index_size="250" name="nrftw_moneydye_008" position="-737.79 4277.63 0" rotation="0 0 1 0" script="default" start_index="1750"/>
-		<table continent="world" folder="levels/instances/unique/bex/bex_keypad/world" index_size="250" name="bex_keypad_001" position="-1999.44 4147.77 151.524" rotation="0 0 1 -4.37114e-008" script="default" start_index="2000"/>
+		<table continent="world" folder="levels/instances/unique/bex/bex_keypad/world" index_size="250" name="bex_keypad_001" position="-1999.44 4247.77 151.524" rotation="0 0 1 -4.37114e-008" script="default" start_index="2000"/>
 	</instances>
 	<statics>
 		<table>
@@ -2486,10 +2486,10 @@
 			<unit_data _prev_pos="-2625 3525 875" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" name_id="mkp_wall_int_1m_a_080" position="-2625 3625 875" rotation="-0.5 -0.5 0.5 -0.5" unit_id="100821"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2725 3500 75" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" name_id="mkp_pillar_int_025m_a_033" position="-2650 3500 75" rotation="0 0 0 -1" unit_id="100822"/>
+			<unit_data _prev_pos="-2650 3425 75" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" name_id="mkp_pillar_int_025m_a_033" position="-2650 3400 75" rotation="0 0 0 -1" unit_id="100822"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2650 3500 75" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" name_id="mkp_pillar_int_025m_a_034" position="-2650 3500 475" rotation="0 0 0 -1" unit_id="100823"/>
+			<unit_data _prev_pos="-2650 3500 475" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" name_id="mkp_pillar_int_025m_a_034" position="-2650 3400 475" rotation="0 0 0 -1" unit_id="100823"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-2700 3525 475" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" name_id="mkp_wall_int_1m_a_081" position="-2625 3525 475" rotation="-0.5 -0.5 0.5 -0.5" unit_id="100824"/>
@@ -2744,19 +2744,7 @@
 			<unit_data _prev_pos="800 4800 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_133" position="800 6400 0" rotation="0 0 0 -1" unit_id="100906"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1975 4200 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light_branch_com" name_id="bnk_prop_vault_door_light_branch_com_001" position="-2000 4200 0" rotation="0 0 -0.707107 -0.707107" unit_id="100907"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1975 3800 75" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="800 -75 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" name_id="mkp_wall_int_4m_045" position="-1975 3800 0" rotation="0 0 0.707107 -0.707107" unit_id="100909"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1975 4600 75" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 -75 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" name_id="mkp_wall_int_4m_047" position="-1975 4600 0" rotation="0 0 0.707107 -0.707107" unit_id="100911"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1900 4600 75" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" name_id="mkp_wall_int_4m_049" position="-1900 4600 0" rotation="0 0 0.707107 -0.707107" unit_id="100913"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1900 3800 75" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="800 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" name_id="mkp_wall_int_4m_051" position="-1900 3800 0" rotation="0 0 0.707107 -0.707107" unit_id="100915"/>
+			<unit_data _prev_pos="-2000 4200 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light_branch_com" name_id="bnk_prop_vault_door_light_branch_com_001" position="-2000 4300 0" rotation="0 0 -0.707107 -0.707107" unit_id="100907"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-1900 3600 75" _prev_rot="0 0 0 -1" continent="world" local_pos="1000 0 0" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" name_id="mkp_wall_int_4m_053" position="-1900 3600 0" rotation="0 0 0 -1" unit_id="100917"/>
@@ -3272,19 +3260,64 @@
 			<unit_data _prev_pos="-1125 4200 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" name_id="mkp_pillar_int_025m_a_035" position="-1125 4175 0" rotation="-0 0 -0 -1" unit_id="101080"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-900 3300 125" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_stair_top_a" name_id="mkp_stair_bot_a_006" position="-900 3300 125" rotation="0 0 0 -1" unit_id="101081"/>
+			<unit_data _prev_pos="-1975 4500 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 -75 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_2m" name_id="mkp_wall_int_2m_021" position="-1975 4500 0" rotation="0 0 0.707107 -0.707107" unit_id="100911"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-900 3400 200" _prev_rot="0 0 0 -1" continent="world" local_pos="0 200 200" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_stair_top_a" name_id="mkp_stair_bot_a_007" position="-900 3400 225" rotation="0 0 0 -1" unit_id="101082"/>
+			<unit_data _prev_pos="-1900 4500 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_2m" name_id="mkp_wall_int_2m_022" position="-1900 4500 0" rotation="0 0 0.707107 -0.707107" unit_id="100913"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-900 3500 300" _prev_rot="0 0 0 -1" continent="world" local_pos="0 300 300" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_stair_top_a" name_id="mkp_stair_bot_a_008" position="-900 3500 325" rotation="0 0 0 -1" unit_id="101083"/>
+			<unit_data _prev_pos="-1975 4600 0" _prev_rot="-0 -0 0.707107 -0.707107" continent="world" local_pos="-100 -75 0" local_rot="0 0 1.78814e-007 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" name_id="mkp_wall_int_1m_a_093" position="-1975 4600 0" rotation="-0 -0 0.707107 -0.707107" unit_id="101076"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-900 3200 -75" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_stair_bot_a" name_id="mkp_stair_bot_a_009" position="-900 3100 -75" rotation="0 0 0 -1" unit_id="101084"/>
+			<unit_data _prev_pos="-1900 4600 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-100 0 0" local_rot="0 0 1.78814e-007 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" name_id="mkp_wall_int_1m_a_094" position="-1900 4600 0" rotation="0 0 0.707107 -0.707107" unit_id="101081"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-900 3200 125" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_stair_top_a" name_id="mkp_stair_bot_a_009" position="-900 3200 25" rotation="0 0 0 -1" unit_id="101076"/>
+			<unit_data _prev_pos="-1900 4325 400" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" name_id="mkp_wall_int_1m_a_102" position="-1900 4300 400" rotation="-0.5 -0.5 0.5 -0.5" unit_id="101082"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1900 4300 400" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" name_id="mkp_wall_int_1m_a_103" position="-1975 4300 400" rotation="-0.5 -0.5 0.5 -0.5" unit_id="101083"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2625 3650 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_window_a" name_id="mkp_wall_int_2m_window_a_001" position="-2625 3650 0" rotation="-0 0 -0 -1" unit_id="101084"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2625 3650 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_door_a" name_id="mkp_wall_int_2m_door_a_003" position="-2425 3650 0" rotation="-0 0 -0 -1" unit_id="101085"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2625 3650 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_window_a" name_id="mkp_wall_int_2m_window_a_002" position="-2225 3650 0" rotation="0 0 0 -1" unit_id="101086"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2650 3525 -25" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" name_id="mkp_wall_int_1m_a_104" position="-2650 3525 -25" rotation="0 0 -0.707107 -0.707107" unit_id="101087"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1900 4500 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_2m" name_id="mkp_wall_int_2m_023" position="-1900 3800 0" rotation="0 0 0.707107 -0.707107" unit_id="100909"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1900 4600 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-100 0 0" local_rot="0 0 1.78814e-007 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" name_id="mkp_wall_int_1m_a_105" position="-1900 3900 0" rotation="0 0 0.707107 -0.707107" unit_id="100915"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1975 4600 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-100 -75 0" local_rot="0 0 1.78814e-007 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" name_id="mkp_wall_int_1m_a_106" position="-1975 3900 0" rotation="0 0 0.707107 -0.707107" unit_id="101088"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1975 4500 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 -75 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_2m" name_id="mkp_wall_int_2m_024" position="-1975 3800 0" rotation="0 0 0.707107 -0.707107" unit_id="101089"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2000 3600 -25" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" name_id="mkp_wall_int_1m_a_107" position="-2000 3600 0" rotation="0 0 0 -1" unit_id="101090"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2025 3650 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" name_id="mkp_pillar_int_025m_a_036" position="-2025 3625 0" rotation="-0 0 -0 -1" unit_id="101091"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2380 3621 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_sah/architecture/sah_int/sah_int_glass_partition/sah_int_glass_partition_door" name_id="sah_int_glass_partition_door_001" position="-2380 3621 0" rotation="0 0 -0.707107 -0.707107" unit_id="101092"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2075 3625 100" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 -400 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m" name_id="dev_bag_collision_1x3m_001" only_visible_in_editor="true" position="-2075 3625 0" rotation="0 0 -0.707107 -0.707107" unit_id="101093"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2475 3625 100" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m" name_id="dev_bag_collision_1x3m_002" only_visible_in_editor="true" position="-2475 3625 0" rotation="0 0 -0.707107 -0.707107" unit_id="101094"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2650 3525 -25" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" name_id="mkp_wall_int_1m_a_108" position="-2650 3525 375" rotation="0 0 -0.707107 -0.707107" unit_id="101095"/>
 		</table>
 	</statics>
 	<values>
