@@ -9,6 +9,7 @@ core:import("CoreMissionScriptElement")
 NRFTWTimerElement = NRFTWTimerElement or class(CoreMissionScriptElement.MissionScriptElement)
 NRFTWTimerElement.timer = 0 -- this is in seconds
 NRFTWTimerElement.countdownspeed = 1 -- this is a value between 0-1
+NRFTWTimerElement._triggers = {}
 
 function NRFTWTimerElement:init(...)
     NRFTWTimerElement.super.init(self, ...)
@@ -63,6 +64,27 @@ function NRFTWTimerElement:update_timer(t, dt)
 		self:remove_updator()
 		self:on_executed()
 	end
+
+    for id, cb_data in pairs(self._triggers) do
+		if self._values.timer <= cb_data.time and not cb_data.disabled then
+			cb_data.callback()
+			self:remove_trigger(id)
+		end
+	end
+end
+
+function NRFTWTimerElement:add_trigger(id, time, callback, disabled)
+	self._triggers[id] = {
+		time = time,
+		callback = callback,
+		disabled = disabled
+	}
+end
+
+function NRFTWTimerElement:remove_trigger(id)
+	if not self._triggers[id].disabled then
+		self._triggers[id] = nil
+	end
 end
 
 
@@ -114,6 +136,52 @@ function NRFTWTimerOperatorElement:on_executed(instigator, ...)
     NRFTWTimerOperatorElement.super.on_executed(self, instigator, ...)
 end
 
+NRFTWTimerTriggerElement = NRFTWTimerTriggerElement or class(CoreMissionScriptElement.MissionScriptElement)
+NRFTWTimerTriggerElement.time = 0
+NRFTWTimerTriggerElement.elements = {}
+
+function NRFTWTimerTriggerElement:init(...)
+	NRFTWTimerTriggerElement.super.init(self, ...)
+end
+
+function NRFTWTimerTriggerElement:on_script_activated()
+	self:activate_trigger()
+end
+
+function NRFTWTimerTriggerElement:client_on_executed(...)
+end
+
+function NRFTWTimerTriggerElement:on_executed(instigator)
+	if not self._values.enabled then
+		return
+	end
+
+	NRFTWTimerTriggerElement.super.on_executed(self, instigator)
+end
+
+function NRFTWTimerTriggerElement:activate_trigger()
+	for _, id in ipairs(self._values.elements) do
+		local element = self:get_mission_element(id)
+
+		element:add_trigger(self._id, self._values.time, callback(self, self, "on_executed"), not self:enabled())
+	end
+end
+
+function NRFTWTimerTriggerElement:operation_add()
+	self:activate_trigger()
+end
+
+function NRFTWTimerTriggerElement:set_enabled(enabled)
+	NRFTWTimerTriggerElement.super.set_enabled(self, enabled)
+
+	for _, id in ipairs(self._values.elements) do
+		local element = self:get_mission_element(id)
+
+		element:enable_trigger(self._id)
+	end
+end
+
+
 if BLE then
     Hooks:Add("BeardLibPostInit", "NRFTWTimerElementEditor", function(self)
         NRFTWTimerEditor = NRFTWTimerEditor or class(MissionScriptEditor)
@@ -140,14 +208,23 @@ if BLE then
             self._element.values.elements = {}
         end
 
-        function NRFTWTimerOperatorEditor:_build_panel()
+        NRFTWTimerTriggerEditor = NRFTWTimerTriggerEditor or class(MissionScriptEditor)
+        NRFTWTimerTriggerEditor.ELEMENT_FILTER = {"NRFTWTimerElement"}
+        function NRFTWTimerTriggerEditor:create_element()
+            self.super.create_element(self)
+            self._element.class = "NRFTWTimerTriggerElement"
+            self._element.values.time = 0
+            self._element.values.elements = {}
+        end
+
+        function NRFTWTimerTriggerEditor:_build_panel()
             self:_create_panel()
             self:BuildElementsManage("elements", nil, self.ELEMENT_FILTER)
-            self:ComboCtrl("operation", {"none","pause","start","set_time","set_speed"}, {help = "Select an operation for the selected elements"})
             self:NumberCtrl("time", {floats = 1, min = 0, help = "blah blah blah"})
-            self:NumberCtrl("countdownspeed", {floats = 2, min = 0, help = "set the countdownspeed"})
         end
+
         table.insert(BLE._config.MissionElements, "NRFTWTimerElement")
         table.insert(BLE._config.MissionElements, "NRFTWTimerOperatorElement")
+        table.insert(BLE._config.MissionElements, "NRFTWTimerTriggerElement")
     end)
 end

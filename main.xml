@@ -41,6 +41,9 @@
 		</outro_event>
 		<packages>
 			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+			<value_node value="levels/narratives/classics/red2/world"/>
+			<value_node value="levels/narratives/classics/red2/world_sounds"/>
+			<value_node value="levels/narratives/classics/red2/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
