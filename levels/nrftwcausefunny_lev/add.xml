@@ -1188,9 +1188,103 @@
 		<unit path="units/payday2/props/gen_prop_square_goal_marker_27x24/gen_prop_square_goal_marker_27x24"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/gen_prop_square_drop_marker_3x3/gen_prop_square_drop_marker_3x3" type="unit">
-		<unit path="units/payday2/props/gen_prop_square_drop_marker_3x3/gen_prop_square_drop_marker_3x3"/>
-		<object path="units/payday2/props/gen_prop_square_drop_marker_3x3/gen_prop_square_drop_marker_3x3"/>
 		<material_config path="units/payday2/props/gen_prop_square_drop_marker_3x3/gen_prop_square_drop_marker_3x3"/>
+		<object path="units/payday2/props/gen_prop_square_drop_marker_3x3/gen_prop_square_drop_marker_3x3"/>
 		<sequence_manager path="units/payday2/props/gen_prop_square_drop_marker_3x3/gen_prop_square_drop_marker_3x3"/>
+		<unit path="units/payday2/props/gen_prop_square_drop_marker_3x3/gen_prop_square_drop_marker_3x3"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_com_generic_button/str_prop_com_generic_button" type="unit">
+		<material_config path="units/payday2/props/str_prop_com_generic_button/str_prop_com_generic_button"/>
+		<object path="units/payday2/props/str_prop_com_generic_button/str_prop_com_generic_button"/>
+		<sequence_manager path="units/payday2/props/str_prop_com_generic_button/str_prop_com_generic_button"/>
+		<unit path="units/payday2/props/str_prop_com_generic_button/str_prop_com_generic_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/architecture/bnk_ext_garage/bnk_ext_garage_door_button" type="unit">
+		<material_config path="units/pd2_dlc1/architecture/bnk_ext_garage/bnk_ext_garage_door_button"/>
+		<object path="units/pd2_dlc1/architecture/bnk_ext_garage/bnk_ext_garage_door_button"/>
+		<sequence_manager path="units/pd2_dlc1/architecture/bnk_ext_garage/bnk_ext_garage_door_button"/>
+		<unit path="units/pd2_dlc1/architecture/bnk_ext_garage/bnk_ext_garage_door_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_interactable_button" type="unit">
+		<material_config path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_prop_keypad"/>
+		<object path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_interactable_button"/>
+		<sequence_manager path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_interactable_button"/>
+		<unit path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_interactable_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_vault_button/cas_prop_vault_button" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_vault_button/cas_prop_vault_button"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_vault_button/cas_prop_vault_button"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_vault_button/cas_prop_vault_button"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_vault_button/cas_prop_vault_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_props_reset_button/chl_props_reset_button" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_props_reset_button/chl_props_reset_button"/>
+		<object path="units/pd2_dlc_chill/props/chl_props_reset_button/chl_props_reset_button"/>
+		<unit path="units/pd2_dlc_chill/props/chl_props_reset_button/chl_props_reset_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_laser_panel/des_prop_laser_panel"/>
+		<object path="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel"/>
+		<unit path="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_crane_terminal/des_prop_crane_terminal_button" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_crane_terminal/des_prop_crane_terminal_button"/>
+		<object path="units/pd2_dlc_des/props/des_prop_crane_terminal/des_prop_crane_terminal_button"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_crane_terminal/des_prop_crane_terminal_button"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_crane_terminal/des_prop_crane_terminal_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_puzzle_box/des_interactable_button_dummy" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_puzzle_box/des_prop_puzzle_box"/>
+		<object path="units/pd2_dlc_des/props/des_prop_puzzle_box/des_interactable_button_dummy"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_puzzle_box/des_interactable_button_dummy"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_puzzle_box/des_interactable_button_dummy"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_drive/props/str_prop_keypad_button/str_prop_keypad_button" type="unit">
+		<object path="units/pd2_dlc_drive/props/str_prop_keypad_button/str_prop_keypad_button"/>
+		<sequence_manager path="units/pd2_dlc_drive/props/str_prop_keypad_button/str_prop_keypad_button"/>
+		<unit path="units/pd2_dlc_drive/props/str_prop_keypad_button/str_prop_keypad_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fex/equipment/fex_interactable_mayan_door/buttons/fex_interactable_ant_button" type="unit">
+		<material_config path="units/pd2_dlc_fex/equipment/fex_interactable_mayan_door/buttons/fex_interactable_buttons"/>
+		<object path="units/pd2_dlc_fex/equipment/fex_interactable_mayan_door/buttons/fex_interactable_ant_button"/>
+		<sequence_manager path="units/pd2_dlc_fex/equipment/fex_interactable_mayan_door/buttons/fex_interactable_buttons"/>
+		<unit path="units/pd2_dlc_fex/equipment/fex_interactable_mayan_door/buttons/fex_interactable_ant_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button" type="unit">
+		<material_config path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button"/>
+		<object path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button"/>
+		<sequence_manager path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button_outline" type="unit">
+		<material_config path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button_outline"/>
+		<object path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button_outline"/>
+		<sequence_manager path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button_outline"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button_outline"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mill/ind_int_wall_button/ind_int_wall_button" type="unit">
+		<material_config path="units/pd2_dlc_mill/ind_int_wall_button/ind_int_wall_button"/>
+		<object path="units/pd2_dlc_mill/ind_int_wall_button/ind_int_wall_button"/>
+		<sequence_manager path="units/pd2_dlc_mill/ind_int_wall_button/ind_int_wall_button"/>
+		<unit path="units/pd2_dlc_mill/ind_int_wall_button/ind_int_wall_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pent/architecture/int/pent_int_elevator_button/pent_int_elevator_button" type="unit">
+		<material_config path="units/pd2_dlc_pent/architecture/int/pent_int_elevator_button/pent_int_elevator_button"/>
+		<object path="units/pd2_dlc_pent/architecture/int/pent_int_elevator_button/pent_int_elevator_button"/>
+		<sequence_manager path="units/pd2_dlc_pent/architecture/int/pent_int_elevator_button/pent_int_elevator_button"/>
+		<unit path="units/pd2_dlc_pent/architecture/int/pent_int_elevator_button/pent_int_elevator_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/props/ranc_int_fire_button/ranc_inte_fire_button" type="unit">
+		<material_config path="units/pd2_dlc_ranc/props/ranc_int_fire_button/ranc_inte_fire_button"/>
+		<object path="units/pd2_dlc_ranc/props/ranc_int_fire_button/ranc_inte_fire_button"/>
+		<sequence_manager path="units/pd2_dlc_ranc/props/ranc_int_fire_button/ranc_inte_fire_button"/>
+		<unit path="units/pd2_dlc_ranc/props/ranc_int_fire_button/ranc_inte_fire_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" type="unit">
+		<unit path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button"/>
+		<material_config path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button"/>
 	</add>
 </table>
