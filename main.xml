@@ -19,6 +19,7 @@
 	</instance>
 	<AddFiles directory="assets">
 		<texture load="true" path="textures/preplanningtemplmao"/>
+		<texture load="true" path="textures/tempimage"/>
 	</AddFiles>
 	<Localization default="english.yaml" directory="loc">
 		<loc file="english.yaml" language="english"/>
@@ -51,7 +52,7 @@
 			<sound id="GEN_Dye_Pack_Explode"/>
 		</sounds>
 	</level>
-	<narrative briefing_event="" contact="braidy08id" id="nrftwcausefunny_nar">
+	<narrative briefing_event="" contact="braidy08id" icon="textures/tempimage" id="nrftwcausefunny_nar">
 		<chain>
 			<table level_id="nrftwcausefunny_lev" type="d" type_id="heist_type_assault"/>
 		</chain>
