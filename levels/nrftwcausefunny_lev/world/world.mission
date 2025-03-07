@@ -3347,9 +3347,9 @@
 							<entry key="id" type="number" value="100125"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="2950 1500 167"/>
+					<entry key="position" type="vector3" value="2950 1475 167"/>
 					<entry key="radius" type="number" value="250"/>
-					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="shape_type" type="string" value="box"/>
 					<entry key="spawn_unit_elements" type="table">
 					</entry>
@@ -3373,7 +3373,7 @@
 					</entry>
 					<entry key="position" type="vector3" value="2882.64 1197.59 -8"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
-					<entry key="state" type="string" value="none"/>
+					<entry key="state" type="string" value="success"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>

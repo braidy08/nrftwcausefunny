@@ -3613,7 +3613,7 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="2950 1500 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="hide" name="units/payday2/props/gen_prop_square_goal_marker_7x4/gen_prop_square_goal_marker_7x4" name_id="gen_prop_square_goal_marker_7x4_001" position="2950 1500 0" rotation="-0 0 -0 -1" unit_id="101213"/>
+			<unit_data _prev_pos="2950 1500 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="hide" name="units/payday2/props/gen_prop_square_goal_marker_7x4/gen_prop_square_goal_marker_7x4" name_id="gen_prop_square_goal_marker_7x4_001" position="2950 1475 0" rotation="0 0 0 -1" unit_id="101213"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="75 700 25" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_004" position="75 700 25" rotation="-0.707107 0 0 -0.707107" unit_id="101214">
