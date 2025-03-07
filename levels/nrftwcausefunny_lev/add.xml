@@ -1320,8 +1320,59 @@
 		<unit path="units/pd2_dlc_nmh/props/nmh_hospital_alarm_outlets/nmh_electrics_firealarm"/>
 	</add>
 	<add from_db="true" path="units/pd2_indiana/props/mus_prop_hallway_firealarm/mus_prop_hallway_firealarm" type="unit">
-		<unit path="units/pd2_indiana/props/mus_prop_hallway_firealarm/mus_prop_hallway_firealarm"/>
-		<object path="units/pd2_indiana/props/mus_prop_hallway_firealarm/mus_prop_hallway_firealarm"/>
 		<material_config path="units/pd2_indiana/props/mus_prop_hallway_firealarm/mus_prop_hallway_firealarm"/>
+		<object path="units/pd2_indiana/props/mus_prop_hallway_firealarm/mus_prop_hallway_firealarm"/>
+		<unit path="units/pd2_indiana/props/mus_prop_hallway_firealarm/mus_prop_hallway_firealarm"/>
+	</add>
+	<add from_db="true" path="soundbanks/car_truck" type="bnk"/>
+	<add from_db="true" path="soundbanks/regular_car_sfx" type="bnk"/>
+	<add from_db="true" path="units/payday2/vehicles/air_interactable_vehicle_cessna_206/air_interactable_vehicle_cessna_206" type="unit">
+		<object path="units/payday2/vehicles/air_interactable_vehicle_cessna_206/air_interactable_vehicle_cessna_206"/>
+		<sequence_manager path="units/payday2/vehicles/air_interactable_vehicle_cessna_206/air_interactable_vehicle_cessna_206"/>
+		<unit path="units/payday2/vehicles/air_interactable_vehicle_cessna_206/air_interactable_vehicle_cessna_206"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_car_limo/str_vehicle_car_limo" type="unit">
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/vehicles/str_vehicle_car_limo/str_vehicle_car_limo"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_car_limo/str_vehicle_car_limo"/>
+		<unit path="units/payday2/vehicles/str_vehicle_car_limo/str_vehicle_car_limo"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck" type="unit">
+		<material_config path="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck"/>
+		<object path="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck"/>
+		<unit path="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_pickuptruck_sportcab/str_vehicle_pickuptruck_sportcab" type="unit">
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/vehicles/str_vehicle_pickuptruck_sportcab/str_vehicle_pickuptruck_sportcab"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_pickuptruck_sportcab/str_vehicle_pickuptruck_sportcab"/>
+		<unit path="units/payday2/vehicles/str_vehicle_pickuptruck_sportcab/str_vehicle_pickuptruck_sportcab"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_van_player/str_vehicle_van_player" type="unit">
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/vehicles/str_vehicle_van_player/str_vehicle_van_player"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_van_player/str_vehicle_van_player"/>
+		<unit path="units/payday2/vehicles/str_vehicle_van_player/str_vehicle_van_player"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" type="unit">
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_small_smoke"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_big_smoke"/>
+		<bnk path="soundbanks/regular_car_sfx"/>
+		<bnk path="soundbanks/car_muscle"/>
+		<material_config path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1"/>
+		<object path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1"/>
+		<sequence_manager path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1"/>
+		<unit path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_16x32m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_16x32m"/>
+		<unit path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_16x32m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_8x32m" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_8x32m"/>
+		<object path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_8x32m"/>
+		<material_config path="core/material_configs/hub_elements"/>
 	</add>
 </table>

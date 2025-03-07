@@ -3810,6 +3810,21 @@
 				</editable_gui>
 			</unit_data>
 		</table>
+		<table>
+			<unit_data _prev_pos="3825 1925 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" name_id="fps_vehicle_muscle_1_001" position="2450 1925 0" projection_light="light_head_projection" rotation="0 0 0 -1" unit_id="101247"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3550 800 -25" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_16x32m" name_id="dev_vehicle_collision_16x32m_001" only_visible_in_editor="true" position="3525 800 -25" rotation="-0 0 -0 -1" unit_id="101248"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3525 -800 -25" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_16x32m" name_id="dev_vehicle_collision_16x32m_002" only_visible_in_editor="true" position="3525 -800 -25" rotation="0 0 0 -1" unit_id="101251"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7.15256e-005 -50 0" _prev_rot="-0 -0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_8x32m" name_id="dev_vehicle_collision_8x32m_001" only_visible_in_editor="true" position="-8.9407e-005 0 0" rotation="-0 -0 0.707107 -0.707107" unit_id="101252"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2925 5575 -25" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_16x32m" name_id="dev_vehicle_collision_16x32m_003" only_visible_in_editor="true" position="-2925 5600 -25" rotation="0 0 0 -1" unit_id="101253"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
