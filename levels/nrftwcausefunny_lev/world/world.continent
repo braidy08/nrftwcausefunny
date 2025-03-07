@@ -2750,27 +2750,6 @@
 			<unit_data _prev_pos="-1100 3600 375" _prev_rot="0 0 0 -1" continent="world" local_pos="0 -575 375" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_4x4m_hole" name_id="mkp_floor_4x4m_hole_004" position="-1300 3600 375" rotation="0 0 0 -1" unit_id="101063"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="450 -75 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_4x3m_001" only_exists_in_editor="true" position="450 -100 0" rotation="0 0 -0.707107 -0.707107" unit_id="101067"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="850 2375 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_4x3m_002" only_exists_in_editor="true" position="850 2375 0" rotation="0 0 -0.707107 -0.707107" unit_id="101068"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-975 2275 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_4x3m_003" only_exists_in_editor="true" position="-925 2275 0" rotation="0 0 -0.707107 -0.707107" unit_id="101069"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2925 5900 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_4x3m_004" only_exists_in_editor="true" position="-2925 5900 0" rotation="0 0 0 -1" unit_id="101072"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5625 2625 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" name_id="dev_nav_splitter_16x3m_001" only_exists_in_editor="true" position="-5600 2625 0" rotation="0 0 0.707107 -0.707107" unit_id="101070"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2725 6600 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_001" only_exists_in_editor="true" position="-2725 6325 0" rotation="0 0 0 -1" unit_id="101073"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2000 3900 0" _prev_rot="0 0 0 -1" continent="world" local_pos="600 250 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_4x3m_006" only_exists_in_editor="true" position="-2200 3900 0" rotation="0 0 0 -1" unit_id="101065"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-2925 2300 -300" _prev_rot="0 0 0 -1" continent="world" local_pos="1225 -125 0" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" name_id="mkp_wall_int_4m_044" position="-2925 2300 -300" rotation="0 0 0 -1" unit_id="101066"/>
 		</table>
 		<table>
@@ -3227,9 +3206,6 @@
 			<unit_data _prev_pos="150 650 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_casino/props/cas_prop_vault_button/cas_prop_vault_button" name_id="cas_prop_vault_button_001" position="150 650 0" rotation="-0 0 -0 -1" unit_id="101132"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2725 6325 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_002" only_exists_in_editor="true" position="-2725 7125 0" rotation="0 0 0 -1" unit_id="101133"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-2400 3200 400" _prev_rot="0 0 0 -1" continent="world" local_pos="-300 100 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_4x4m" name_id="mkp_floor_4x4m_072" position="-2400 3200 400" rotation="0 0 0 -1" unit_id="101134"/>
 		</table>
 		<table>
@@ -3363,12 +3339,6 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-900 3600 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" name_id="mkp_wall_int_4m_066" position="-900 3600 400" rotation="0 0 -0.707107 -0.707107" unit_id="101174"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-675 3800 200" _prev_rot="0 0 1 -0" continent="world" local_pos="0 0 -400" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_001" only_exists_in_editor="true" position="-700 3800 200" rotation="0 0 1 -0" unit_id="101064"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-700 3800 600" _prev_rot="0 0 1 -0" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_002" only_exists_in_editor="true" position="-700 3800 600" rotation="0 0 1 -0" unit_id="101175"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-675 3900 100" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="200 -100 -300" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_b" name_id="mkp_railing_int_1m_b_013" position="-700 3900 100" rotation="0 0 -0.707107 -0.707107" unit_id="101176"/>
@@ -3590,9 +3560,6 @@
 			<unit_data _prev_pos="-881.117 4407.18 400" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_a" name_id="mkp_wall_int_4m_door_a_002" position="-875 4400 400" rotation="0 0 0.707107 -0.707107" unit_id="101209"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-875 4400 400" _prev_rot="0 0 1 -0" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_003" only_exists_in_editor="true" position="-875 4350 400" rotation="0 0 1 -0" unit_id="101210"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="2950 1475 -8" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_door_rear_both_open" name="units/pd2_dlc_chill/vehicles/str_vehicle_van/chl_vehicle_van_player" name_id="chl_vehicle_van_player_002" position="2950 1475 -8" rotation="0 0 0.707107 -0.707107" unit_id="101211">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="1 0.858824 0.576471" enabled="true" falloff_exponent="4" far_range="150" multiplier="@IDbca13ba1d306f87b@" name="lo_omni_1" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
@@ -3710,6 +3677,9 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-2950 2275 400" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 -100" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" name_id="mkp_pillar_int_025m_a_039" position="-2950 3100 400" rotation="0 0 0 -1" unit_id="101218"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4000 -800 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_134" position="4000 -1600 0" rotation="0 0 0 -1" unit_id="101219"/>
 		</table>
 	</statics>
 	<values>
