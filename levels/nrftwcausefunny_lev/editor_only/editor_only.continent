@@ -21,7 +21,7 @@
 			<unit_data _prev_pos="-2000 4300 0" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" local_pos="600 650 0" local_rot="0 0 0.707107 0.707107" mesh_variation="state_opened" name="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light_branch_com" name_id="bnk_prop_vault_door_light_branch_com_002" position="-2200 4300 0" rotation="0 0 -0.707107 -0.707107" unit_id="200002"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1100 4300 0" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="1500 650 0" local_rot="0 0 0 1" mesh_variation="state_door_open" name="units/payday2/equipment/gen_interactable_door_glass_metal/gen_interactable_door_glass_metal" name_id="gen_interactable_door_glass_metal_002" position="-1300 4300 0" rotation="0 0 0 -1" unit_id="200003"/>
+			<unit_data _prev_pos="-1300 4300 0" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="-300 -200 0" local_rot="0 0 0 1" mesh_variation="state_door_open" name="units/payday2/equipment/gen_interactable_door_glass_metal/gen_interactable_door_glass_metal" name_id="gen_interactable_door_glass_metal_002" position="-1300 4100 0" rotation="0 0 0 -1" unit_id="200003"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-2555 3621 0" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" local_pos="-2745 1321 175" local_rot="0 0 0.707107 0.707107" mesh_variation="open_doors" name="units/pd2_dlc_sah/architecture/sah_int/sah_int_glass_partition/sah_int_glass_partition_door" name_id="sah_int_glass_partition_door_002" position="-2555 3621 0" rotation="0 0 -0.707107 -0.707107" unit_id="200004"/>
@@ -61,6 +61,9 @@
 		</table>
 		<table>
 			<unit_data continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_002" only_exists_in_editor="true" position="-2725 7125 0" rotation="0 0 0 -1" unit_id="200016"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-775 4425 0" _prev_rot="0 0 0.707107 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_004" only_exists_in_editor="true" position="-750 4425 0" rotation="0 0 0.707107 -0.707107" unit_id="200017"/>
 		</table>
 	</statics>
 	<values>

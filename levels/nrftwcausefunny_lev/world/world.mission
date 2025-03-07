@@ -2574,7 +2574,7 @@
 							<entry key="id" type="number" value="100095"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="-1300 4050 100"/>
+					<entry key="position" type="vector3" value="-1525 4000 100"/>
 					<entry key="radius" type="number" value="250"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="shape_type" type="string" value="box"/>
@@ -2842,7 +2842,7 @@
 							<entry key="id" type="number" value="100109"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="-1575 4050 100"/>
+					<entry key="position" type="vector3" value="-1575 4000 100"/>
 					<entry key="radius" type="number" value="250"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="shape_type" type="string" value="box"/>
