@@ -1304,4 +1304,24 @@
 		<sequence_manager path="units/payday2/props/gen_prop_square_goal_marker_7x4/gen_prop_square_goal_marker_7x4"/>
 		<unit path="units/payday2/props/gen_prop_square_goal_marker_7x4/gen_prop_square_goal_marker_7x4"/>
 	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/hotel_ceiling_firealarm001" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/hotel_ceiling_firealarm001"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/hotel_ceiling_firealarm001"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/hotel_ceiling_firealarm001"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mex/props/mex_prop_firealarm/mex_prop_firealarm" type="unit">
+		<material_config path="units/pd2_dlc_mex/props/mex_prop_firealarm/mex_prop_firealarm"/>
+		<object path="units/pd2_dlc_mex/props/mex_prop_firealarm/mex_prop_firealarm"/>
+		<unit path="units/pd2_dlc_mex/props/mex_prop_firealarm/mex_prop_firealarm"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_nmh/props/nmh_hospital_alarm_outlets/nmh_electrics_firealarm" type="unit">
+		<material_config path="units/pd2_dlc_nmh/props/nmh_hospital_alarm_outlets/nmh_electrics_firealarm"/>
+		<object path="units/pd2_dlc_nmh/props/nmh_hospital_alarm_outlets/nmh_electrics_firealarm"/>
+		<unit path="units/pd2_dlc_nmh/props/nmh_hospital_alarm_outlets/nmh_electrics_firealarm"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_hallway_firealarm/mus_prop_hallway_firealarm" type="unit">
+		<unit path="units/pd2_indiana/props/mus_prop_hallway_firealarm/mus_prop_hallway_firealarm"/>
+		<object path="units/pd2_indiana/props/mus_prop_hallway_firealarm/mus_prop_hallway_firealarm"/>
+		<material_config path="units/pd2_indiana/props/mus_prop_hallway_firealarm/mus_prop_hallway_firealarm"/>
+	</add>
 </table>
