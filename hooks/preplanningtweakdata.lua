@@ -15,6 +15,19 @@ Hooks:PostHook(PrePlanningTweakData,"init","init_nrftwcausefunny_lev",function(s
 		cost = 10000,
 		budget_cost = 8
 	}
+	self.types.nrftw_specialescape = {
+		name_id = "menu_nrftw_specialescape_name",
+		desc_id = "menu_nrftw_specialescape_desc",
+		plan = "escape_plan",
+		pos_not_important = false,
+		category = "escape_plan",
+		post_event = "preplan_17",
+		prio = 1,
+		icon = 103,
+		total = 1,
+		cost = 20000,
+		budget_cost = 10
+	}
 	self.types.nrftw_vannormal = {
 		name_id = "menu_nrftw_vannormal_name",
 		desc_id = "menu_nrftw_vannormal_desc",
@@ -86,7 +99,7 @@ Hooks:PostHook(PrePlanningTweakData,"_create_locations","_create_locations_nrftw
 			custom_points = {}
 		},
 		mission_briefing_texture = "textures/preplanningtemplmao",
-		total_budget = 10,
+		total_budget = 12,
 		default_plans = {
 				escape_plan = "nrftw_vannormal",
 				vault_plan = "nrftw_thermiteentrance"
