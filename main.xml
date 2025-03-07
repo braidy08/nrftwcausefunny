@@ -17,7 +17,7 @@
 			<value_node value="levels/instances/unique/bex/bex_keypad/world/world"/>
 		</packages>
 	</instance>
-	<AssetUpdates id="braidy08/nrftwcausefunny" provider="github" branch="master"/>
+	<AssetUpdates id="braidy08/nrftwcausefunny" provider="github" branch="master" is_standalone="false"/>
 	<AddFiles directory="assets">
 		<texture load="true" path="textures/preplanningtemplmao"/>
 		<texture load="true" path="textures/tempimage"/>
