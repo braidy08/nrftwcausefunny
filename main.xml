@@ -18,6 +18,9 @@
 		</packages>
 	</instance>
 	<AssetUpdates id="braidy08/nrftwcausefunny" provider="github" branch="master" is_standalone="false"/>
+	<Hooks directory="hooks">
+		<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
+	</Hooks>
 	<AddFiles directory="assets">
 		<texture load="true" path="textures/preplanningtemplmao"/>
 		<texture load="true" path="textures/tempimage"/>
