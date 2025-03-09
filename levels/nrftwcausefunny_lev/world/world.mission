@@ -1494,6 +1494,12 @@
 							<entry key="notify_unit_sequence" type="string" value="set_interaction_turn_off_power"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
+						<entry index="3" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100860"/>
+							<entry key="notify_unit_sequence" type="string" value="enable_glow"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
 					</entry>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>

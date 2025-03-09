@@ -353,7 +353,7 @@
 		</entry>
 		<entry key="environment_values" type="table">
 			<entry key="color_grading" type="string" value="color_payday"/>
-			<entry key="environment" type="string" value=".map/environments/default"/>
+			<entry key="environment" type="string" value=".map/environments/TEMPNRFTWENV"/>
 			<entry key="sky_rot" type="number" value="53"/>
 		</entry>
 		<entry key="wind" type="table">

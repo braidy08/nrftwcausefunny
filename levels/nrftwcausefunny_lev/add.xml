@@ -1371,8 +1371,43 @@
 		<unit path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_16x32m"/>
 	</add>
 	<add from_db="true" path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_8x32m" type="unit">
-		<unit path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_8x32m"/>
-		<object path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_8x32m"/>
 		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_8x32m"/>
+		<unit path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_8x32m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_16x32m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_16x32m"/>
+		<unit path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_16x32m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m"/>
+		<unit path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_8x32m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_8x32m"/>
+		<unit path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_8x32m"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_ext_power_transformer/ind_ext_power_transformer" type="unit">
+		<material_config path="units/payday2/props/ind_ext_power_transformer/ind_ext_power_transformer"/>
+		<object path="units/payday2/props/ind_ext_power_transformer/ind_ext_power_transformer"/>
+		<unit path="units/payday2/props/ind_ext_power_transformer/ind_ext_power_transformer"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/hospital/props/rooftop/substation_transformer/substation_transformer01a" type="unit">
+		<material_config path="units/world/architecture/hospital/props/rooftop/props_rooftop"/>
+		<object path="units/world/architecture/hospital/props/rooftop/substation_transformer/substation_transformer01a"/>
+		<unit path="units/world/architecture/hospital/props/rooftop/substation_transformer/substation_transformer01a"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/hospital/props/rooftop/substation_transformer/substation_transformer01b" type="unit">
+		<material_config path="units/world/architecture/hospital/props/rooftop/props_rooftop"/>
+		<object path="units/world/architecture/hospital/props/rooftop/substation_transformer/substation_transformer01b"/>
+		<unit path="units/world/architecture/hospital/props/rooftop/substation_transformer/substation_transformer01b"/>
+	</add>
+	<add from_db="true" path="units/world/props/desert/des_street_prop _transformer_pole/des_prop_str_trans_pole" type="unit">
+		<unit path="units/world/props/desert/des_street_prop _transformer_pole/des_prop_str_trans_pole"/>
+		<object path="units/world/props/desert/des_street_prop _transformer_pole/des_prop_str_trans_pole"/>
+		<material_config path="units/world/props/desert/des_street_prop _transformer_pole/des_prop_str_trans_pole"/>
 	</add>
 </table>
