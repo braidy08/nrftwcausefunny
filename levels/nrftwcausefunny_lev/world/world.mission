@@ -107,7 +107,7 @@
 					<entry key="max_amount" type="number" value="0"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1100 3800 400"/>
+					<entry key="position" type="vector3" value="-1500 3800 400"/>
 					<entry key="random_time" type="number" value="0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="screen_space" type="boolean" value="false"/>
@@ -197,7 +197,7 @@
 							<entry key="id" type="number" value="100024"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="-1100 3800 450"/>
+					<entry key="position" type="vector3" value="-1500 3800 450"/>
 					<entry key="radius" type="number" value="250"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="shape_type" type="string" value="box"/>
@@ -324,7 +324,7 @@
 							<entry key="id" type="number" value="100068"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="-1100 3800 475"/>
+					<entry key="position" type="vector3" value="-1500 3800 475"/>
 					<entry key="radius" type="number" value="250"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="shape_type" type="string" value="box"/>
@@ -522,7 +522,7 @@
 							<entry key="id" type="number" value="100029"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="-1100 3800 500"/>
+					<entry key="position" type="vector3" value="-1500 3800 500"/>
 					<entry key="radius" type="number" value="250"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="shape_type" type="string" value="box"/>
@@ -1900,7 +1900,7 @@
 					<entry key="max_amount" type="number" value="0"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1100 3800 400"/>
+					<entry key="position" type="vector3" value="-1500 3800 400"/>
 					<entry key="random_time" type="number" value="0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="screen_space" type="boolean" value="false"/>
@@ -2308,8 +2308,8 @@
 							<entry key="id" type="number" value="100037"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="-1100 4420.07 129.499"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="position" type="vector3" value="-1100 4495.07 129.499"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="sequence_list" type="table">
 						<entry index="1" type="table">
 							<entry key="sequence" type="string" value="done_opened"/>
@@ -2580,7 +2580,7 @@
 							<entry key="id" type="number" value="100095"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="-1525 4000 100"/>
+					<entry key="position" type="vector3" value="-1725 4000 100"/>
 					<entry key="radius" type="number" value="250"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="shape_type" type="string" value="box"/>
@@ -2590,7 +2590,7 @@
 					<entry key="trigger_on" type="string" value="on_enter"/>
 					<entry key="trigger_times" type="number" value="1"/>
 					<entry key="use_disabled_shapes" type="boolean" value="true"/>
-					<entry key="width" type="number" value="1200"/>
+					<entry key="width" type="number" value="850"/>
 				</entry>
 			</entry>
 			<entry index="98" type="table">
@@ -2848,7 +2848,7 @@
 							<entry key="id" type="number" value="100109"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="-1575 4000 100"/>
+					<entry key="position" type="vector3" value="-1750 4000 100"/>
 					<entry key="radius" type="number" value="250"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="shape_type" type="string" value="box"/>
@@ -2858,7 +2858,7 @@
 					<entry key="trigger_on" type="string" value="on_enter"/>
 					<entry key="trigger_times" type="number" value="1"/>
 					<entry key="use_disabled_shapes" type="boolean" value="true"/>
-					<entry key="width" type="number" value="1200"/>
+					<entry key="width" type="number" value="850"/>
 				</entry>
 			</entry>
 			<entry index="107" type="table">
@@ -2873,7 +2873,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1602.28 3963.35 1.49012e-006"/>
+					<entry key="position" type="vector3" value="-1602.28 3813.35 1.49012e-006"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_list" type="table">
 						<entry index="1" type="table">
@@ -2898,9 +2898,15 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1602.28 4038.35 1.49012e-006"/>
+					<entry key="position" type="vector3" value="-1602.28 3888.35 1.49012e-006"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="101126"/>
+							<entry key="notify_unit_sequence" type="string" value="anim_open_door"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
 					</entry>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -3433,8 +3439,8 @@
 							<entry key="id" type="number" value="100117"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="-1000 4513.73 226.928"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="position" type="vector3" value="-1075 4513.73 226.928"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="1"/>
 				</entry>
 			</entry>
@@ -3683,11 +3689,11 @@
 					<entry key="path_style" type="string" value="destination"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="stand"/>
-					<entry key="position" type="vector3" value="-700 3500 400"/>
+					<entry key="position" type="vector3" value="-1100 3500 400"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="scan" type="boolean" value="true"/>
 					<entry key="search_distance" type="number" value="500"/>
-					<entry key="search_position" type="vector3" value="-700 3500 400"/>
+					<entry key="search_position" type="vector3" value="-1100 3500 400"/>
 					<entry key="so_action" type="string" value="e_so_pull_lever"/>
 					<entry key="spawn_instigator_ids" type="table">
 					</entry>
@@ -3715,8 +3721,8 @@
 							<entry key="id" type="number" value="100138"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="-800 3466 500"/>
-					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="position" type="vector3" value="-1200 3466 500"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
