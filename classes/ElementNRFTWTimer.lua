@@ -208,6 +208,14 @@ if BLE then
             self._element.values.elements = {}
         end
 
+        function NRFTWTimerOperatorEditor:_build_panel()
+            self:_create_panel()
+            self:BuildElementsManage("elements", nil, self.ELEMENT_FILTER)
+            self:ComboCtrl("operation", {"none","pause","start","set_time","set_speed"}, {help = "Select an operation for the selected elements"})
+            self:NumberCtrl("time", {floats = 1, min = 0, help = "blah blah blah"})
+            self:NumberCtrl("countdownspeed", {floats = 2, min = 0, help = "set the countdownspeed"})
+        end
+
         NRFTWTimerTriggerEditor = NRFTWTimerTriggerEditor or class(MissionScriptEditor)
         NRFTWTimerTriggerEditor.ELEMENT_FILTER = {"NRFTWTimerElement"}
         function NRFTWTimerTriggerEditor:create_element()
