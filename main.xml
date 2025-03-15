@@ -17,18 +17,20 @@
 			<value_node value="levels/instances/unique/bex/bex_keypad/world/world"/>
 		</packages>
 	</instance>
-	<AssetUpdates id="braidy08/nrftwcausefunny" provider="github" branch="master" is_standalone="false"/>
-	<Hooks directory="hooks">
-		<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
-	</Hooks>
+	<instance id="NRFTW_circuitbreaker">
+		<packages/>
+	</instance>
 	<AddFiles directory="assets">
 		<texture load="true" path="textures/preplanningtemplmao"/>
 		<texture load="true" path="textures/tempimage"/>
 	</AddFiles>
+	<AssetUpdates branch="master" id="braidy08/nrftwcausefunny" is_standalone="false" provider="github"/>
+	<Hooks directory="hooks">
+		<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
+	</Hooks>
 	<Localization default="english.yaml" directory="loc">
 		<loc file="english.yaml" language="english"/>
 	</Localization>
-	<Package file="packagedata/pd2_mod_nrftw/add.xml" id="modpackages/pd2_mod_nrftw"/>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" desc_id="braidy08desc" id="braidy08id" name_id="braidy08" package="packages/contact_bain"/>
 	<level ai_group_type="america" id="nrftwcausefunny_lev" max_bags="54">
 		<assets/>
