@@ -25,10 +25,10 @@ menu_nrftw_specialescape_desc : ''
 # vault entrances
 
 menu_nrftw_thermiteentrance_name : Thermite entrance
-menu_nrftw_thermiteentrance_desc : "If the cops get alerted this will be how you enter the vault. \n\n»Any progress you make in stealth will be pointless if things go loud before opening the vault"
+menu_nrftw_thermiteentrance_desc : "If the cops get alerted this will be how you enter the vault. \n\n»Any progress you make in stealth will be nullified if things go loud before opening the vault"
 
 menu_nrftw_vaultlockdownsabotage_name : Keypad shutdown sabotage
-menu_nrftw_vaultlockdownsabotage_desc : "We got a guy to prevent the keypad from shutting down if the cops get alerted. \n\n»Stealth progress does not get affected if things go loud"
+menu_nrftw_vaultlockdownsabotage_desc : "We got an insider to prevent the keypad from shutting down if the cops get alerted. \n\n»Stealth progress does not get affected if things go loud"
 
 # other
 
